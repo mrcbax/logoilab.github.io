@@ -2,6 +2,11 @@
 layout: default
 ---
 
-Welcome
+Welcome to the blog!
+===
+
+_2018-6-9_ [First Post](computeco.de/2018-06-09_1.html)
 ---
-To home.
+The first blog post.
+
+
