@@ -1,0 +1,79 @@
+==================================================================
+https://keybase.io/mrcbax
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://computeco.de
+  * I am mrcbax (https://keybase.io/mrcbax) on keybase.
+  * I have a public key with fingerprint B6E6 2A01 1FB6 F1D7 C806  18DC 51F5 CC26 A523 96FC
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01013cb17a202d7ba9472019f9e91d727060feaf45d3f752dc26c1be4d635a8b26600a",
+      "fingerprint": "b6e62a011fb6f1d7c80618dc51f5cc26a52396fc",
+      "host": "keybase.io",
+      "key_id": "51f5cc26a52396fc",
+      "kid": "01013cb17a202d7ba9472019f9e91d727060feaf45d3f752dc26c1be4d635a8b26600a",
+      "uid": "9b8554996c3a918d81df4d13e1e44619",
+      "username": "mrcbax"
+    },
+    "merkle_root": {
+      "ctime": 1528678557,
+      "hash_meta": "3c234aac98050c4f892a3f7562422b00f89fb26ed3b90b8f3a0d2fb506870812",
+      "seqno": 3056157
+    },
+    "revoke": {
+      "sig_ids": [
+        "f157a9def79bb62d03ea4d003440b534336a43a83345b211166280e7caaabff60f"
+      ]
+    },
+    "service": {
+      "hostname": "computeco.de",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1528678571,
+  "expire_in": 157680000,
+  "prev": "19eae68a5ea50c0bb17cd2e59863000b8a209efa64ed3af3bae5ab38ce5022c8",
+  "seqno": 23,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtk11oHUUYhk9+GpJIrabYBiRUt20oEsP87MzOHFvUoi3Y9EKFIpZ4nJn95mRN
+ztnTPZs0NQSC4h8BlYgRKoiIrbloi2CphYoK/lCNDSGiFaspWNsgxRYTE7xQ4mxo
+EcRL92bZb97v/d55dubl1XW5xpoHF79qP7Rx/M+ayV90bm/b6Q+GPB2HB7z8kNcL
+Ky/oC6GaFnqj0Mt7CCNMjcaBIoiEgVbSDwjC0kqQOAxIgDiyoKzPQmoDRkJDuMEa
+/JBTpoQmnCOkvA7PRuUiJJUkKqfOVnPgRCGMrebW+RiBOBahYdgy4ywUI1Rya1xj
+T1zNOlw4rarQGcWu5j4KK/H+Q/8/5+5fsZNaMOZLyQ1V0gUVOLR+iClg8H2OZSas
+QlJWJXDqUmK0GvSGO7wSJL19UEjiOM3QmjTKBJgRwQPnGLjtqWpPoQSpcn3UEOor
+ZaRADBnfCklUlo4TnxCNkCtYlwxCqiXSwlKFQmI1Q1wESGDiUlRhXzn28hQxjlng
+EiQwEPdCNrwaFR20qpff61m3puTHaQg2kFpzEiIKyg8Ror6PNKM+pVz5VAlKfaYJ
+xphzIhAERimlrXXwvO7hbFwyEJkV++w/Xdu/iUuV/hRM3BmCy1RJ4jQ2cZ9b6UnT
+Sj4Dkx6oZMr9oAvXPAo6KofukLiGAUiqUVx2oJzyX8wC3OHBYCVKoBBlChZwgdyT
+jYEBZ4klKOBCMVAOItLuDJiQAJOCU6fTwp0ICVZx33FUlmoFTGkqDDBEiBH/QCTU
+5VRF5+nQlVXan4A33PxCDa3P1TTm2tbdXn/i0h01G078dvZ0Q+sP1y/WqtrsVuWa
+m266Xnm/2JgbG57/5qNb5Hk6905rn1m6b/GVmc1nft86verwSM/QuiOffVF39ttL
+t44vlya6O3adebj2jcnOiVOP5cILC8sw9sSV0avFJqide+vTtcmPzy6P8Nvunb3h
+w/Mz52qvjDG5+dDMJxfGk8boobufPLxzaf7oA+2jJxu2qZ8annl10+vPvdlSfLTl
+zqnvvlTdyLZcfrfpvenC420Lv5ZWf9518xr+IrvnYOdi3fSx3Iah77ecqn97fONU
+eSa37aXWrnNb7xqc8JNk+x/1ff1rp0aO7/66fHDh/uDi7qX1rzV0/Ty3f/Ty0eJV
+s2fTI5UbZ/8aETuOHN93cc3J6fmnJxd3rG9+fmdw7Kldle2zre1/Aw==
+=EnQy
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mrcbax
+
+==================================================================
