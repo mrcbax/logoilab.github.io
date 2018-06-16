@@ -6,6 +6,8 @@ author: Chad Baxter
 Posts
 ===
 
+<hr>
+
 <strong>_2018-6-16_ [ActiveAntiPhish - Protecting Stolen Credentials Using Saturation](2018-06-16_1.html)</strong>
 ---
 
