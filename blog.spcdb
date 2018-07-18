@@ -1,4 +1,21 @@
 {
   "name": "blog.spcdb\n",
-  "idents": []
+  "idents": [
+    {
+      "user_name": "chad",
+      "user_id": "​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿",
+      "spacebars": [
+        {
+          "name": "Default",
+          "desc": "The default spacebar.",
+          "spacebar": "​​​​​​​​​​"
+        },
+	{
+          "name": "ActiveAnitPhish",
+	  "desc": "Post1",
+          "spacebar": "​﻿﻿﻿﻿﻿​﻿﻿﻿​﻿​﻿​​﻿﻿​​﻿﻿​​﻿​​​﻿﻿​﻿​﻿﻿﻿​​﻿​​﻿﻿​﻿﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​​​​​﻿​﻿​​​﻿​﻿​​﻿​﻿​﻿﻿﻿﻿​​﻿​​​﻿​​​﻿﻿​﻿"
+	}
+      ]
+    }
+  ]
 }
