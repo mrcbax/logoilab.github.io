@@ -8,6 +8,11 @@ Posts
 
 <hr>
 
+<strong> _2018-07-29_ [Local Privledge Escalation in Certiport Testing Software](2018-07-29_1.html)</strong>
+---
+
+<hr>
+
 <strong>_2018-6-16_ [ActiveAntiPhish - Protecting Stolen Credentials Using Saturation](2018-06-16_1.html)</strong>
 ---
 
