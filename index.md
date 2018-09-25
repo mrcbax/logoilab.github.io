@@ -8,7 +8,7 @@ Posts
 
 <hr>
 
-<strong> _2018-07-29_ [DyingLight: Software and Hardware to Bring Back Brightness Functionality of MacBooks.](DyingLight.html)</strong>
+<strong> _2018-09-24_ [DyingLight: Software and Hardware to Bring Back Brightness Functionality of MacBooks.](DyingLight.html)</strong>
 ---
 
 
