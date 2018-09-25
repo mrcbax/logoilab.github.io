@@ -60,6 +60,7 @@ There are a few things you must do to get the driver working for linux.
 Install the `libusb` package.
 
 _ArchLinux:_ `libusb`
+
 _Ubuntu/Debian:_ `libusb-1.0-0-dev`
 
 Then type the following commaw​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿and into your terminal:
