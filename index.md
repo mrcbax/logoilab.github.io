@@ -8,6 +8,13 @@ Posts
 
 <hr>
 
+<strong> _2018-07-29_ [DyingLight: Software and Hardware to Bring Back Brightness Functionality of MacBooks.](DyingLight.html)</strong>
+---
+
+
+
+<hr>
+
 <strong> _2018-07-29_ [Local Privilege Escalation in Certiport Testing Software](2018-07-29_1.html)</strong>
 ---
 
