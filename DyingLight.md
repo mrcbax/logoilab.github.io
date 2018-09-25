@@ -24,6 +24,8 @@ tags: ["MacBook", "Brightness", "dGPU", "Hardware", "Mod", "gMux", "os x", "ATTi
 
 Just install the driver it's all good!
 
+<hr>
+
 #### _Windows 7/8/10_
 
 The driver is a command linw​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ae interface with flags that allow easy keybinding and startup entries.
@@ -48,7 +50,7 @@ FLAGS:
 OPTIONS:
     -s, --set <set>    <1-16>: Sets the brightness to a specific value
 ```
-
+<hr>
 #### _Linux_
 
 The driver is a command liw​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ane interface with flags that allow easy keybinding and startup entries.
