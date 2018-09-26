@@ -43,7 +43,7 @@ The driver is a command lin​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​�
 
 The driver comes bundled with the libusb DLL files it requires, do not separate them.
 
-```
+```cli
 DyingLight 0.2.1
 LogoiLab:DosDude1
 A utility to set the backli​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ght brightness of a system with the DyingLight mod installed.
@@ -76,12 +76,12 @@ _ArchLinux:_ `libusb`
 _Ubuntu/Debian:_ `libusb-1.0-0-dev`
 
 Then type the following comma​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿nd into your terminal:
-```
+```cli
 sudo vim /etc/udev/rules.d/99-dying_light.rules
 ```
 
 Then paste this into vim:
-```
+```cli
 ACTION!="add|change", GOTO="dying_light_rules_end"
 SUBSYSTEM!="usb|tty|hidraw", GOTO="dying_light_rules_end"
 
@@ -93,7 +93,7 @@ LABEL="dying_light_rules_end"
 Save your changes by hitting `esc` and typing `:wq`.
 
 Type the following command:
-```
+```cli
 sudo usermod -aG plugdev $USER
 ```
 
