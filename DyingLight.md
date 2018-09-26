@@ -17,6 +17,7 @@ tags: ["MacBook", "Brightness", "dGPU", "Hardware", "Mod", "gMux", "os x", "ATTi
 <img src="assets/img/pcb-brd.svg" height="25%" width="25%">
 <br>
 <strong>The Mk.I DyingLight PCB</strong>
+<br>
 <p>Actual size: 24mmx25mm</p>
 </div>
 
