@@ -10,7 +10,11 @@ tags: ["MacBook", "Brightness", "dGPU", "Hardware", "Mod", "gMux", "os x", "ATTi
 
 ## Introdu​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ction
 
-## Why
+This project is the byproduct of a simple problem described over a late night burrito at Chipotle. DosDude1 _(Of High Sierra Patcher fame)_ had created a mod for MacBooks who's dedicated graphics chip had died. This mod allowed an owner to permanently bypass the dedicated graphics to use the integrated graphics instead. This was done by bypassing the graphics muxing chip on the mainboard of the machine. You can read more about it [here](https://forums.macrumors.com/threads/permanently-disable-2011-15-17-macbook-pro-dedicated-gpu-gmux-ic-bypass.2134019/ on his MacRumors post.
+
+There was one slight problem. This mod required the owner to pass 3.3v to the backlight controller. This device, because it takes a PWM signal would interpret the 3.3v as max brightness. This usually isn't an issue, until someone would like to use their MacBook in the dark.
+
+Quite simply a solution to output the proper PWM signal to the backlight controller was needed. This was easy, until you factor in the fact that the user is going to want to control the backlight using the native controls on their system. DosDude and I began our deep dive into hardware modding taking on the concatenation of our usernames _Dos_**Lab** as our psuedonym for this project. Below you will learn all about project DyingLight including how to use it to return your MacBook to almost-native glory.
 
 ## Hardware
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
