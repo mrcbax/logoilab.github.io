@@ -14,7 +14,7 @@ This project is the byproduct of a simple problem described over a late night bu
 
 There was one slight problem. This mod required the owner to pass 3.3v to the backlight controller. This device, because it takes a PWM signal would interpret the 3.3v as max brightness. This usually isn't an issue, until someone would like to use their MacBook in the dark.
 
-Quite simply a solution to output the proper PWM signal to the backlight controller was needed. This was easy, until you factor in the fact that the user is going to want to control the backlight using the native controls on their system. DosDude and I began our deep dive into hardware modding taking on the concatenation of our usernames _Dos_**Lab** as our psuedonym for this project. Below you will learn all about project DyingLight including how to use it to return your MacBook to almost-native glory.
+Quite simply a solution to output the proper PWM signal to the backlight controller was needed. This was easy, until you factor in the fact that the user is going to want to control the backlight using the native controls on their system. DosDude and I began our deep dive into hardware modding taking on the concatenation of our usernames _Dos_**Lab** as our psuedonym for this project. Below you will learn all about project **DyingLight** including how to use it to return your MacBook to almost-native glory.
 
 ## Hardware
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
