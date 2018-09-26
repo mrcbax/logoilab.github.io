@@ -14,7 +14,7 @@ tags: ["MacBook", "Brightness", "dGPU", "Hardware", "Mod", "gMux", "os x", "ATTi
 
 ## Hardware
 
-<img src="assets/img/pcb-brd.svg" height="100%" width="100%" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="assets/img/pcb-brd.svg" height="25%" width="25%" style="display: block; margin-left: auto; margin-right: auto;">
 
 <!--Purchase Links-->
 
