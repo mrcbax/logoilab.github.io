@@ -15,7 +15,9 @@ tags: ["MacBook", "Brightness", "dGPU", "Hardware", "Mod", "gMux", "os x", "ATTi
 ## Hardware
 <div style="display: block; margin-left: auto; margin-right: auto;">
 <img src="assets/img/pcb-brd.svg" height="25%" width="25%">
+</div>
 <br>
+<div style="display: block; margin-left: auto; margin-right: auto;">
 <strong>The Mk.I DyingLight PCB</strong>
 </div>
 
