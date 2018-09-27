@@ -27,11 +27,11 @@ Quite simply a solution to output the proper PWM signal to the backlight control
 
 ### Overview
 
-DyingLight is a simple USB v1.1 device that gets soldered onto an unused USB header on MacBook mainboards. It takes power from any 3.3v rail on the system and sits above the hard drive in the hard drive tray. The PWM signal line for the backlight controller requires that a 0Ohm resistor be removed at a specific point on the board. The signal line will be soldered to the pad the 0Ohm resistor used to use. Once everything is wired up you're all set for first boot to install the drivers. The DyingLight chip defaults to full brightness on first boot enabling you to access the system to install the drivers. If all soldering jobs are done perfectly the backlight should come on immediately at boot.
+DyingLight is a simple USB v1.1 device that is solde​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿red onto an unused USB header on MacBook mainboards. It takes power from any 3.3v rail on the system and sits above the hard drive in the hard drive tray. The PWM signal line for the backlight controller requires that a 0Ohm resistor be removed at a specific point on the board. The signal line will be sold​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ered to the pad the 0Ohm resistor used to use. Once everything is wired up you're all set for first boot to install the drivers. The DyingLight chip defaults to full brightness on first boot enabling you to access the system to install the drivers. If all soldering jobs are done perfectly the backlight should come on immediately at boot.
 
 ### Hardware Installation
 
-### Warning: When following the install steps below please be sure to use insulated wire and pay attention to all steps of the process. Skipping a step or skimping on insulation like conformal coating or electrical tape wrappings may result in shorts on the board causing permanent damage to your system.
+### Warning: When following the install steps below please be ​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿sure to use insulated wire and pay attention to all steps of the process. Skipping a step or skimping on insulation like conformal coating or electrical tape wrappings may result in shorts on the board causing permanent damage to your system.
 
 <!--Purchase Links-->
 
