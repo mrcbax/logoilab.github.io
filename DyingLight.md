@@ -3,7 +3,7 @@ layout: post
 title: DyingLight: Software and Hardware to Bring Back Brightness Functionality of MacBooks.
 author: Chad Baxter
 date: 2018-09-24
-tags: ["MacBook", "Brightness", "dGPU", "Hardware", "Mod", "gMux", "os x", "ATTiny85"]
+tags: ["MacBook", "Brightness", "dGPU", "Hardware", "Mod", "gMux", "os x", "ATTiny85", "Graphics"]
 ---
 
 # DyingLight: Software and Hardware to Bring Back Brightness Functionality of MacBooks.
@@ -25,6 +25,14 @@ Quite simply a solution to output the proper PWM signal to the backlight control
 <p>Actual size: 24mmx25mm</p>
 </div>
 
+### Overview
+
+DyingLight is a simple USB v1.1 device that gets soldered onto an unused USB header on MacBook mainboards. It takes power from any 3.3v rail on the system and sits above the hard drive in the hard drive tray. The PWM signal line for the backlight controller requires that a 0Ohm resistor be removed at a specific point on the board. The signal line will be soldered to the pad the 0Ohm resistor used to use. Once everything is wired up you're all set for first boot to install the drivers. The DyingLight chip defaults to full brightness on first boot enabling you to access the system to install the drivers. If all soldering jobs are done perfectly the backlight should come on immediately at boot.
+
+### Hardware Installation
+
+### Warning: When following the install steps below please be sure to use insulated wire and pay attention to all steps of the process. Skipping a step or skimping on insulation like conformal coating or electrical tape wrappings may result in shorts on the board causing permanent damage to your system.
+
 <!--Purchase Links-->
 
 ## Softw​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿are
@@ -43,7 +51,8 @@ The driver is a command lin​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​�
 
 The driver comes bundled with the libusb DLL files it requires, do not separate them.
 
-```cli
+```
+
 DyingLight 0.2.1
 LogoiLab:DosDude1
 A utility to set the backli​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ght brightness of a system with the DyingLight mod installed.
@@ -76,12 +85,12 @@ _ArchLinux:_ `libusb`
 _Ubuntu/Debian:_ `libusb-1.0-0-dev`
 
 Then type the following comma​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿nd into your terminal:
-```cli
+```
 sudo vim /etc/udev/rules.d/99-dying_light.rules
 ```
 
 Then paste this into vim:
-```cli
+```
 ACTION!="add|change", GOTO="dying_light_rules_end"
 SUBSYSTEM!="usb|tty|hidraw", GOTO="dying_light_rules_end"
 
@@ -93,7 +102,7 @@ LABEL="dying_light_rules_end"
 Save your changes by hitting `esc` and typing `:wq`.
 
 Type the following command:
-```cli
+```
 sudo usermod -aG plugdev $USER
 ```
 
