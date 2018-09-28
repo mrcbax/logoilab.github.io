@@ -59,7 +59,7 @@ DyingLight is a simple USB v1.1 device that is solde​﻿​﻿﻿​﻿﻿﻿�
 </div>
 
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
-<img src="assets/img/osx_drv_1.png" height="25%" width="25%">
+<img src="assets/img/osx_drv_1.png" height="5%" width="5%">
 <br>
 <strong>Integrated manual slider.</strong>
 </div>
