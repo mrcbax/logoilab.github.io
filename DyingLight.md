@@ -59,6 +59,10 @@ Once all the wires are soldered, mount the board onto the top of your hard disk 
 
 ## Softw​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿are <a name="software"></a>
 
+### Introduction
+
+DyingLight is compatible with any operating system that will run on your MacBook Pro, including Windows, various Linux distros, and of course, Mac OS X. Since most users will be using the device under Mac OS X, the OS X software includes many enhancements, integrating it seamslessly with the OS. The Windows and Linux versions are command-line apps that are easily used with hotkey bindings and startup entries.
+
 ### Requirements <a name="sw_reqs"></a>
 
 #### _OS X_ <a name="sw_reqs_osx"></a>
@@ -68,6 +72,8 @@ Once all the wires are soldered, mount the board onto the top of your hard disk 
 <br>
 <strong>DyingLight device registered with OS X.</strong>
 </div>
+
+The DyingLight board will appear as a normal USB v1.1 device in the OS X System Profiler.
 
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
 <img src="assets/img/osx_drv_1.png" height="5%" width="5%">
@@ -81,7 +87,10 @@ Once all the wires are soldered, mount the board onto the top of your hard disk 
 <strong>Native-feel keyboard button support and feedback.</strong>
 </div>
 
-Just install the driver it's all good!
+
+Brightness can be changed by using a slider located in the system's Menu Bar, or by simply pressing the brightness up/down hotkeys on your MacBook Pro's keyboard.
+
+To get the driver running, all you'll need to do is run the installer package and reboot your machine.
 
 <hr>
 
@@ -152,7 +161,7 @@ Log out and log b​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿
 
 ### <strong>_Downlo​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ads_</strong> <a name="downloads"></a>
 
-[MacOS X >= 10.6 Sn​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ow Leopard 64-bit](downloads/x86_64-apple-darwin-DyingLight.zip)
+[Mac OS X >= 10.6 Sn​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ow Leopard 64-bit](downloads/x86_64-apple-darwin-DyingLight.zip)
 
 [Win​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿dows 7/8/10 64-bit](downloads/x86_64-pc-windows-gnu-DyingLight.zip)
 
