@@ -73,8 +73,6 @@ DyingLight is compatible with any operating system that will run on your MacBook
 <strong>DyingLight device registered with OS X.</strong>
 </div>
 
-The DyingLight board will appear as a normal USB v1.1 device in the OS X System Profiler.
-
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
 <img src="assets/img/osx_drv_1.png" height="5%" width="5%">
 <br>
@@ -87,8 +85,7 @@ The DyingLight board will appear as a normal USB v1.1 device in the OS X System 
 <strong>Native-feel keyboard button support and feedback.</strong>
 </div>
 
-
-Brightness can be changed by using a slider located in the system's Menu Bar, or by simply pressing the brightness up/down hotkeys on your MacBook Pro's keyboard.
+<br>
 
 To get the driver running, all you'll need to do is run the installer package and reboot your machine.
 
