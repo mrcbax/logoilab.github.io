@@ -21,10 +21,11 @@ Quite simply a solution to output the proper PWM signal to the backlight control
   - [Overview](#hw_overview)
   - [Installation](#hw_install)
 - [Software](#software)
+  - [Introduction](#sw_intro)
   - [Requirements](#sw_reqs)
-    -[OS X](#sw_reqs_osx)
-    -[Windows](#sw_reqs_win)
-    -[Linux](#sw_reqs_nix)
+      -[OS X](#sw_reqs_osx)
+      -[Windows](#sw_reqs_win)
+      -[Linux](#sw_reqs_nix)
   - [Downloads](#downloads)
 
 ## Hardware<a name="hardware"></a>
@@ -59,7 +60,7 @@ Once all the wires are soldered, mount the board onto the top of your hard disk 
 
 ## Softw​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿are <a name="software"></a>
 
-### Introduction
+### Introduction <a name="sw_intro"></a>
 
 DyingLight is compatible with any operating system that will run on your MacBook Pro, including Windows, various Linux distros, and of course, Mac OS X. Since most users will be using the device under Mac OS X, the OS X software includes many enhancements, integrating it seamslessly with the OS. The Windows and Linux versions are command-line apps that are easily used with hotkey bindings and startup entries.
 
