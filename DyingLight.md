@@ -73,11 +73,15 @@ DyingLight is compatible with any operating system that will run on your MacBook
 <strong>DyingLight device registered with OS X.</strong>
 </div>
 
+<br>
+
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
 <img src="assets/img/osx_drv_1.png" height="5%" width="5%">
 <br>
 <strong>Integrated manual slider.</strong>
 </div>
+
+<br>
 
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
 <img src="assets/img/osx_drv_2.png" height="25%" width="25%">
