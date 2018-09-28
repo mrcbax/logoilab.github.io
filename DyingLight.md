@@ -53,7 +53,7 @@ DyingLight is a simple USB v1.1 device that is solde​﻿​﻿﻿​﻿﻿﻿�
 #### _OS X_ <a name="sw_reqs_osx"></a>
 
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
-<img src="assets/img/osx_drv_0.png" height="25%" width="25%">
+<img src="assets/img/osx_drv_0.png" height="30%" width="30%">
 <br>
 <strong>DyingLight device registered with OS X.</strong>
 </div>
