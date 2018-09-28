@@ -24,7 +24,7 @@ Quite simply a solution to output the proper PWM signal to the backlight control
   - [Requirements](#sw_reqs)
     -[OS X](#sw_reqs_osx)
     -[Windows](#sw_reqs_win)
-    -[Linux](#sw_reqs_win)
+    -[Linux](#sw_reqs_nix)
   - [Downloads](#downloads)
 
 ## Hardware<a name="hardware"></a>
@@ -51,6 +51,24 @@ DyingLight is a simple USB v1.1 device that is solde​﻿​﻿﻿​﻿﻿﻿�
 ### Requirements <a name="sw_reqs"></a>
 
 #### _OS X_ <a name="sw_reqs_osx"></a>
+
+<div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
+<img src="assets/img/osx_drv_0.png" height="25%" width="25%">
+<br>
+<strong>DyingLight device registered with OS X.</strong>
+</div>
+
+<div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
+<img src="assets/img/osx_drv_1.png" height="25%" width="25%">
+<br>
+<strong>Integrated manual slider.</strong>
+</div>
+
+<div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
+<img src="assets/img/osx_drv_2.png" height="25%" width="25%">
+<br>
+<strong>Native-feel keyboard button support and feedback.</strong>
+</div>
 
 Just install the driver it's all good!
 
@@ -123,6 +141,8 @@ Log out and log b​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿
 
 ### <strong>_Downlo​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ads_</strong> <a name="downloads"></a>
 
-[Win​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿dows 64-bit](downloads/x86_64-pc-windows-gnu-DyingLight.zip)
+[MacOS X >= 10.6 Sn​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ow Leopard 64-bit](downloads/x86_64-apple-darwin-DyingLight.zip)
+
+[Win​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿dows 7/8/10 64-bit](downloads/x86_64-pc-windows-gnu-DyingLight.zip)
 
 [Li​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿nux 64-bit](downloads/x86_64-unknown-linux-gnu-DyingLight.zip)
