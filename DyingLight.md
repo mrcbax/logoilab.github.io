@@ -23,9 +23,9 @@ Quite simply a solution to output the proper PWM signal to the backlight control
 - [Software](#software)
   - [Introduction](#sw_intro)
   - [Requirements](#sw_reqs)
-      -[OS X](#sw_reqs_osx)
-      -[Windows](#sw_reqs_win)
-      -[Linux](#sw_reqs_nix)
+      - [OS X](#sw_reqs_osx)
+      - [Windows](#sw_reqs_win)
+      - [Linux](#sw_reqs_nix)
   - [Downloads](#downloads)
 
 ## Hardware<a name="hardware"></a>
