@@ -16,7 +16,18 @@ There was one slight problem. This mod required the owner to pass 3.3v to the ba
 
 Quite simply a solution to output the proper PWM signal to the backlight controller was nee​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ded. This was easy, until you factor in the fact that the user is going to want to control the backlight using the native controls on their system. DosDude and I began our deep dive into hardware modding taking on the concatenation of our usern​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ames _Dos_**Lab** as our psuedonym for this project. Below you will learn all about project **DyingLight** including how to use it to return your MacBook to almost-native glory.
 
-## Hardware
+##Table of contents
+- [Hardware](#hardware)
+  - [Overview](#hw_overview)
+  - [Installation](#hw_install)
+- [Software](#software)
+  - [Requirements](#sw_reqs)
+    -[OS X](#sw_reqs_osx)
+    -[Windows](#sw_reqs_win)
+    -[Linux](#sw_reqs_win)
+  - [Downloads](#downloads)
+
+## Hardware<a name="hardware"></a>
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
 <img src="assets/img/pcb-brd.svg" height="25%" width="25%">
 <br>
@@ -25,27 +36,27 @@ Quite simply a solution to output the proper PWM signal to the backlight control
 <p>Actual size: 24mmx25mm</p>
 </div>
 
-### Overview
+### Overview <a name="hw_overview"></a>
 
 DyingLight is a simple USB v1.1 device that is solde​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿red onto an unused USB header on MacBook mainboards. It takes power from any 3.3v rail on the system and sits above the hard drive in the hard drive tray. The PWM signal line for the backlight controller requires that a 0Ohm resistor be removed at a specific point on the board. The signal line will be sold​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ered to the pad the 0Ohm resistor used to use. Once everything is wired up you're all set for first boot to install the drivers. The DyingLight chip defaults to full brightness on first boot enabling you to access the system to install the drivers. If all soldering jobs are done perfectly the backlight should come on immediately at boot.
 
-### Hardware Installation
+### Installation <a name="hw_install"></a>
 
 ### <u>Warning: When following the install steps below please be ​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿sure to use insulated wire and pay attention to all steps of the process. Skipping a step or skimping on insulation like conformal coating or electrical tape wrappings may result in shorts on the board causing permanent damage to your system.</u>
 
 <!--Purchase Links-->
 
-## Softw​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿are
+## Softw​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿are <a name="software"></a>
 
-### Requirements
+### Requirements <a name="sw_reqs"></a>
 
-#### _OS X_
+#### _OS X_ <a name="sw_reqs_osx"></a>
 
 Just install the driver it's all good!
 
 <hr>
 
-#### _Windows 7/8/10_
+#### _Windows 7/8/10_ <a name="sw_reqs_win"></a>
 
 The driver is a command lin​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿e interface with flags that allow easy keybinding and startup entries.
 
@@ -71,7 +82,7 @@ OPTIONS:
     -s, --set <set>    <1-16>: Sets the brightness to a specific value
 ```
 <hr>
-#### _Linux_
+#### _Linux_ <a name="sw_reqs_nix"></a>
 
 The driver is a command li​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ne interface with flags that allow easy keybinding and startup entries.
 
@@ -110,7 +121,7 @@ You may have to replace `$USER` with your username.
 
 Log out and log b​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ack in and you should be ready to go.
 
-### <strong>_Downlo​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ads_</strong>
+### <strong>_Downlo​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ads_</strong> <a name="downloads"></a>
 
 [Win​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿dows 64-bit](downloads/x86_64-pc-windows-gnu-DyingLight.zip)
 
