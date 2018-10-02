@@ -46,9 +46,8 @@ DyingLight is a simple USB v1.1 device that is solde​﻿​﻿﻿​﻿﻿﻿�
 
 ### <u>Warning: When following the install steps below please be ​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿sure to use insulated wire and pay attention to all steps of the process. Skipping a step or skimping on insulation like conformal coating or electrical tape wrappings may result in shorts on the board causing permanent damage to your system.</u>
 
-<<<<<<< HEAD
 You can purchase your own module from EBay <strong>[HERE](https://cpcde.page.link/V6dk)<strong>
-=======
+
 To install the device, it is recommended to connect each pad on the DyingLight board to its respective point on the MacBook logic board using small jumper wires. Route these wires to be long enough to reach from the hard disk drive area of the system to the respective points on the logic board. First, though, a few components need to be removed from the board, in addition to those removed to perform the inital gMux IC bypass. First, **R9704** needs to be removed. This resistor is what connects the **BKLT_PWM** rail to the gMux IC, and removing it will prevent the gMux from pulling the line down. Second, the 2 pullup resistors on the unused USB data lines need to be removed. These are **R0915** and **R0916**. Once these are removed, we are now ready to begin soldering the wires.
 
 The pad labeled **3.3V** on the DyingLight board needs to be connected to the **PP3V3_S3** rail on the logic board. There are many points on the board where this rail is located, but I'd recommend solding it to pin 1 of **C5926**.
@@ -60,8 +59,6 @@ The next line we need to solder is the **PWM** output line. This needs to connec
 Lastly, the USB data lines need to be soldered. The **D+** line will be soldered to pin 2 of **R0195** (previously removed), and the **D-** line needs to be soldered to pin 2 of **R0916** (previously removed).
 
 Once all the wires are soldered, mount the board onto the top of your hard disk drive. Be sure to insulate the entire DyingLight board (conformal coating, wrap w/ electrical tape, etc.), and secure it to the top of the drive with adhesive or double-sided tape.
-<!--Purchase Links-->
->>>>>>> bbeb9f4cfa331c4148e80a1c3da6d254df66e275
 
 ## Softw​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿are <a name="software"></a>
 
