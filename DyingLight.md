@@ -16,16 +16,17 @@ There was one slight problem. This mod required the owner to pass 3.3v to the ba
 
 Quite simply a solution to output the proper PWM signal to the backlight controller was nee​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ded. This was easy, until you factor in the fact that the user is going to want to control the backlight using the native controls on their system. DosDude and I began our deep dive into hardware modding taking on the concatenation of our usern​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ames _Dos_**Lab** as our psuedonym for this project. Below you will learn all about project **DyingLight** including how to use it to return your MacBook to almost-native glory.
 
-##Table of contents
+## Table of contents
 - [Hardware](#hardware)
   - [Overview](#hw_overview)
   - [Installation](#hw_install)
   - [Buy](#buy)
 - [Software](#software)
+  - [Introduction](#sw_intro)
   - [Requirements](#sw_reqs)
-    -[OS X](#sw_reqs_osx)
-    -[Windows](#sw_reqs_win)
-    -[Linux](#sw_reqs_nix)
+      - [OS X](#sw_reqs_osx)
+      - [Windows](#sw_reqs_win)
+      - [Linux](#sw_reqs_nix)
   - [Downloads](#downloads)
 
 ## Hardware<a name="hardware"></a>
@@ -45,9 +46,28 @@ DyingLight is a simple USB v1.1 device that is solde​﻿​﻿﻿​﻿﻿﻿�
 
 ### <u>Warning: When following the install steps below please be ​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿sure to use insulated wire and pay attention to all steps of the process. Skipping a step or skimping on insulation like conformal coating or electrical tape wrappings may result in shorts on the board causing permanent damage to your system.</u>
 
+<<<<<<< HEAD
 You can purchase your own module from EBay <strong>[HERE](https://cpcde.page.link/V6dk)<strong>
+=======
+To install the device, it is recommended to connect each pad on the DyingLight board to its respective point on the MacBook logic board using small jumper wires. Route these wires to be long enough to reach from the hard disk drive area of the system to the respective points on the logic board. First, though, a few components need to be removed from the board, in addition to those removed to perform the inital gMux IC bypass. First, **R9704** needs to be removed. This resistor is what connects the **BKLT_PWM** rail to the gMux IC, and removing it will prevent the gMux from pulling the line down. Second, the 2 pullup resistors on the unused USB data lines need to be removed. These are **R0915** and **R0916**. Once these are removed, we are now ready to begin soldering the wires.
+
+The pad labeled **3.3V** on the DyingLight board needs to be connected to the **PP3V3_S3** rail on the logic board. There are many points on the board where this rail is located, but I'd recommend solding it to pin 1 of **C5926**.
+
+The ground pad (labeled **GND**) needs to be connected to any grounding point in the system. I'd recommend soldering it to the shield on one of the USB ports of the logic board, or to one of the many grounding pins sticking up off the board.
+
+The next line we need to solder is the **PWM** output line. This needs to connect to pin 2 of **R9704**, which is the resistor you previously removed off the **BKLT_PWM** rail.
+
+Lastly, the USB data lines need to be soldered. The **D+** line will be soldered to pin 2 of **R0195** (previously removed), and the **D-** line needs to be soldered to pin 2 of **R0916** (previously removed).
+
+Once all the wires are soldered, mount the board onto the top of your hard disk drive. Be sure to insulate the entire DyingLight board (conformal coating, wrap w/ electrical tape, etc.), and secure it to the top of the drive with adhesive or double-sided tape.
+<!--Purchase Links-->
+>>>>>>> bbeb9f4cfa331c4148e80a1c3da6d254df66e275
 
 ## Softw​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿are <a name="software"></a>
+
+### Introduction <a name="sw_intro"></a>
+
+DyingLight is compatible with any operating system that will run on your MacBook Pro, including Windows, various Linux distros, and of course, Mac OS X. Since most users will be using the device under Mac OS X, the OS X software includes many enhancements, integrating it seamslessly with the OS. The Windows and Linux versions are command-line apps that are easily used with hotkey bindings and startup entries.
 
 ### Requirements <a name="sw_reqs"></a>
 
@@ -59,11 +79,15 @@ You can purchase your own module from EBay <strong>[HERE](https://cpcde.page.lin
 <strong>DyingLight device registered with OS X.</strong>
 </div>
 
+<br>
+
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
 <img src="assets/img/osx_drv_1.png" height="5%" width="5%">
 <br>
 <strong>Integrated manual slider.</strong>
 </div>
+
+<br>
 
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
 <img src="assets/img/osx_drv_2.png" height="25%" width="25%">
@@ -71,7 +95,9 @@ You can purchase your own module from EBay <strong>[HERE](https://cpcde.page.lin
 <strong>Native-feel keyboard button support and feedback.</strong>
 </div>
 
-Just install the driver it's all good!
+<br>
+
+To get the driver running, all you'll need to do is run the installer package and reboot your machine.
 
 <hr>
 
@@ -142,7 +168,7 @@ Log out and log b​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿
 
 ### <strong>_Downlo​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ads_</strong> <a name="downloads"></a>
 
-[MacOS X >= 10.6 Sn​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ow Leopard 64-bit](downloads/x86_64-apple-darwin-DyingLight.zip)
+[Mac OS X >= 10.6 Sn​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ow Leopard 64-bit](downloads/x86_64-apple-darwin-DyingLight.zip)
 
 [Win​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿dows 7/8/10 64-bit](downloads/x86_64-pc-windows-gnu-DyingLight.zip)
 
