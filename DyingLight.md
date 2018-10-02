@@ -20,6 +20,7 @@ Quite simply a solution to output the proper PWM signal to the backlight control
 - [Hardware](#hardware)
   - [Overview](#hw_overview)
   - [Installation](#hw_install)
+  - [Buy](#buy)
 - [Software](#software)
   - [Requirements](#sw_reqs)
     -[OS X](#sw_reqs_osx)
@@ -44,7 +45,7 @@ DyingLight is a simple USB v1.1 device that is solde​﻿​﻿﻿​﻿﻿﻿�
 
 ### <u>Warning: When following the install steps below please be ​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿sure to use insulated wire and pay attention to all steps of the process. Skipping a step or skimping on insulation like conformal coating or electrical tape wrappings may result in shorts on the board causing permanent damage to your system.</u>
 
-<!--Purchase Links-->
+You can purchase your own module from EBay <strong>[HERE](https://cpcde.page.link/V6dk)<strong>
 
 ## Softw​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿are <a name="software"></a>
 
