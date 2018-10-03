@@ -89,7 +89,7 @@ Once all the wires are soldered, mount the board onto the top of your hard disk 
 Here is a video of the functioning device:
 
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
-<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="20%" height="25%" type="text/html" src="https://www.youtube.com/embed/Xu0iZwC79GA?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://computeco.de"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Xu0iZwC79GA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
 ## Softw​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿are <a name="software"></a>
