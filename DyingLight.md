@@ -66,7 +66,7 @@ The next line we need to solder is the **PWM** output line. This needs to connec
 
 Lastly, the USB data lines need to be soldered. The **D+** line will be soldered to pin 2 of **R0915** (previously removed), and the **D-** line needs to be soldered to pin 2 of **R0916** (previously removed).
 
-These are high definition images it is recommended open them in a new tab and zoom in on them for reference during install. The liquid you see on the board around the DyingLight traces is flux used for soldering.
+These are high definition images it is recommended that you open them in a new tab and zoom in on them for reference during install. The liquid you see on the board around the DyingLight traces is flux used for soldering.
 
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
 <a href="assets/img/install_3.jpg"><img src="assets/img/install_3.jpg" height="25%" width="25%">
