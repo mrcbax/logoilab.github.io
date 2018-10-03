@@ -115,7 +115,7 @@ DyingLight is compatible with any operating system that will run on your MacBook
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
 <a href="assets/img/osx_drv_2.png"><img src="assets/img/osx_drv_2.png" height="25%" width="25%">
 <br>
-<strong>Native-feel keyboard button support and feedback.</strong>
+<strong>Native-feel keyboard button support and feedback.</strong></a>
 </div>
 
 <br>
