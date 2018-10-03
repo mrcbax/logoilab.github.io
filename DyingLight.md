@@ -31,9 +31,9 @@ Quite simply a solution to output the proper PWM signal to the backlight control
 
 ## Hardware<a name="hardware"></a>
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
-<img src="assets/img/pcb-brd.svg" height="25%" width="25%">
+<a href="assets/img/pcb-brd.svg"><img src="assets/img/pcb-brd.svg" height="25%" width="25%">
 <br>
-<strong>The Mk.I DyingLight PCB</strong>
+<strong>The Mk.I DyingLight PCB</strong></a>
 <br>
 <p>Actual size: 24mmx25mm</p>
 </div>
@@ -51,9 +51,11 @@ You can purchase your own module from EBay <strong>[HERE](https://cpcde.page.lin
 To install the device, it is recommended to connect each pad on the DyingLight board to its respective point on the MacBook logic board using small jumper wires. Route these wires to be long enough to reach from the hard disk drive area of the system to the respective points on the logic board. First, though, a few components need to be removed from the board, in addition to those removed to perform the inital gMux IC bypass. First, **R9704** needs to be removed. This resistor is what connects the **BKLT_PWM** rail to the gMux IC, and removing it will prevent the gMux from pulling the line down. Second, the 2 pullup resistors on the unused USB data lines need to be removed. These are **R0915** and **R0916**. Once these are removed, we are now ready to begin soldering the wires.
 
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
-<img src="assets/img/install_2.jpg" height="25%" width="25%">
+<a href="assets/img/install_2.jpg"><img src="assets/img/install_2.jpg" height="25%" width="25%">
 <br>
-<strong>Approximate wiring lengths needed.</strong>
+<strong>Approximate wiring lengths needed.</strong></a>
+<br>
+<br>
 </div>
 
 The pad labeled **3.3V** on the DyingLight board needs to be connected to the **PP3V3_S3** rail on the logic board. There are many points on the board where this rail is located, but I'd recommend solding it to pin 1 of **C5926**.
@@ -67,17 +69,21 @@ Lastly, the USB data lines need to be soldered. The **D+** line will be soldered
 These are high definition images it is recommended open them in a new tab and zoom in on them for reference during install. The liquid you see on the board around the DyingLight traces is flux used for soldering.
 
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
-<img src="assets/img/install_3.jpg" height="25%" width="25%">
+<a href="assets/img/install_3.jpg"><img src="assets/img/install_3.jpg" height="25%" width="25%">
 <br>
-<strong>Solder-points on board.</strong>
+<strong>Solder-points on board.</strong></a>
+<br>
+<br>
 </div>
 
 Once all the wires are soldered, mount the board onto the top of your hard disk drive. Be sure to insulate the entire DyingLight board (conformal coating, wrap w/ electrical tape, etc.), and secure it to the top of the drive with adhesive or double-sided tape.
 
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
-<img src="assets/img/install_1.jpg" height="25%" width="25%">
+<a href="assets/img/install_1.jpg"><img src="assets/img/install_1.jpg" height="25%" width="25%">
 <br>
-<strong>DyingLight chip affixed to the top of the drive.</strong>
+<strong>DyingLight chip affixed to the top of the drive.</strong></a>
+<br>
+<br>
 </div>
 
 ## Softw​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿are <a name="software"></a>
@@ -91,23 +97,23 @@ DyingLight is compatible with any operating system that will run on your MacBook
 #### _OS X_ <a name="sw_reqs_osx"></a>
 
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
-<img src="assets/img/osx_drv_0.png" height="35%" width="35%">
+<a href="assets/img/osx_drv_0.png"><img src="assets/img/osx_drv_0.png" height="35%" width="35%">
 <br>
-<strong>DyingLight device registered with OS X.</strong>
+<strong>DyingLight device registered with OS X.</strong></a>
 </div>
 
 <br>
 
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
-<img src="assets/img/osx_drv_1.png" height="5%" width="5%">
+<a href="assets/img/osx_drv_1.png"><img src="assets/img/osx_drv_1.png" height="5%" width="5%">
 <br>
-<strong>Integrated manual slider.</strong>
+<strong>Integrated manual slider.</strong></a>
 </div>
 
 <br>
 
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
-<img src="assets/img/osx_drv_2.png" height="25%" width="25%">
+<a href="assets/img/osx_drv_2.png"><img src="assets/img/osx_drv_2.png" height="25%" width="25%">
 <br>
 <strong>Native-feel keyboard button support and feedback.</strong>
 </div>
