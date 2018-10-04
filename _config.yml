@@ -5,3 +5,6 @@ author: Chad Baxter
 show_downloads: false
 google_analytics: UA-66099830-2
 theme: jekyll-theme-minimal
+
+plugins:
+  - jekyll-sitemap
