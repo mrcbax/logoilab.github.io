@@ -56,6 +56,7 @@ To install the device, it is recommended to connect each pad on the DyingLight b
 <a href="assets/img/install_2.jpg"><img src="assets/img/install_2.jpg" height="25%" width="25%">
 <br>
 <strong>Approximate wiring lengths needed. (For 17")</strong></a>
+</div>
 <br>
 <br>
 <br>
