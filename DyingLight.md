@@ -50,12 +50,16 @@ DyingLight is a simple USB v1.1 device that is solde​﻿​﻿﻿​﻿﻿﻿�
 
 You can purchase your own module from EBay <strong>[HERE](https://cpcde.page.link/V6dk)<strong><a name="buy"></a>
 
-To install the device, it is recommended to connect each pad on the DyingLight board to its respective point on the MacBook logic board using small jumper wires. Route these wires to be long enough to reach from the hard disk drive area of the system to the respective points on the logic board. First, though, a few components need to be removed from the board, in addition to those removed to perform the inital gMux IC bypass. First, **R9704** needs to be removed. This resistor is what connects the **BKLT_PWM** rail to the gMux IC, and removing it will prevent the gMux from pulling the line down. Second, the 2 pullup resistors on the unused USB data lines need to be removed. These are **R0915** and **R0916**. Once these are removed, we are now ready to begin soldering the wires.
+To install the device, it is recommended to connect each pad on the DyingLight board to its respective point on the MacBook logic board using small jumper wires. Route these wires to be long enough to reach from the hard disk drive area (17" MacBooks) or beside the wireless module (15" MacBooks) to the respective points on the logic board. First, though, a few components need to be removed from the board, in addition to those removed to perform the inital gMux IC bypass. First, **R9704** needs to be removed. This resistor is what connects the **BKLT_PWM** rail to the gMux IC, and removing it will prevent the gMux from pulling the line down. Second, the 2 pullup resistors on the unused USB data lines need to be removed. These are **R0915** and **R0916**. Once these are removed, we are now ready to begin soldering the wires.
 
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
 <a href="assets/img/install_2.jpg"><img src="assets/img/install_2.jpg" height="25%" width="25%">
 <br>
-<strong>Approximate wiring lengths needed.</strong></a>
+<strong>Approximate wiring lengths needed. (For 17")</strong></a>
+<div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
+<a href="assets/img/install_4.jpg"><img src="assets/img/install_4.jpg" height="25%" width="25%">
+<br>
+<strong>Approximate wiring lengths needed. (For 15")</strong></a>
 <br>
 <br>
 </div>
