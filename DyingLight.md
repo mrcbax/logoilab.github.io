@@ -33,9 +33,9 @@ if you would like you can [DONATE](https://cpcde.page.link/FJXh) to the project.
 
 ## Hardware<a name="hardware"></a>
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
-<a href="assets/img/pcb-brd.svg"><img src="assets/img/pcb-brd.svg" height="25%" width="25%">
+<a href="assets/img/pcb-brd.svg"><img src="assets/img/smd_pcb-brd.svg" height="25%" width="25%">
 <br>
-<strong>The Mk.I DyingLight PCB</strong></a>
+<strong>The Mk.II DyingLight PCB</strong></a>
 <br>
 <p>Actual size: 24mmx25mm</p>
 </div>
@@ -48,7 +48,7 @@ DyingLight is a simple USB v1.1 device that is solde​﻿​﻿﻿​﻿﻿﻿�
 
 ### <u>Warning: When following the install steps below please be ​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿sure to use insulated wire and pay attention to all steps of the process. Skipping a step or skimping on insulation like conformal coating or electrical tape wrappings may result in shorts on the board causing permanent damage to your system.</u>
 
-You can purchase your own module from EBay <strong>[HERE](https://cpcde.page.link/V6dk)<strong><a name="buy"></a>
+You can purchase your own module from EBay <strong>[HERE](https://cpcde.page.link/jp5F)<strong><a name="buy"></a>
 
 To install the device, it is recommended to connect each pad on the DyingLight board to its respective point on the MacBook logic board using small jumper wires. Route these wires to be long enough to reach from the hard disk drive area (17" MacBooks) or beside the wireless module (15" MacBooks) to the respective points on the logic board. First, though, a few components need to be removed from the board, in addition to those removed to perform the inital gMux IC bypass. First, **R9704** needs to be removed. This resistor is what connects the **BKLT_PWM** rail to the gMux IC, and removing it will prevent the gMux from pulling the line down. Second, the 2 pullup resistors on the unused USB data lines need to be removed. These are **R0915** and **R0916**. Once these are removed, we are now ready to begin soldering the wires.
 
