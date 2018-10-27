@@ -30,6 +30,7 @@ if you would like you can [DONATE](https://cpcde.page.link/FJXh) to the project.
       - [Windows](#sw_reqs_win)
       - [Linux](#sw_reqs_nix)
   - [Downloads](#downloads)
+  - [Changelog](#changelog)
 
 ## Hardware<a name="hardware"></a>
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
@@ -214,3 +215,8 @@ Log out and log b​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿
 [Win​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿dows 7/8/10 64-bit](https://cpcde.page.link/CnyS)
 
 [Li​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿nux 64-bit](https://cpcde.page.link/sCZS)
+
+### <strong>_Changelog_</strong> <a name="changelog"></a>
+
+- _2018-10-26_ Fixed undiscovered incompatiblilies with OS X 10.6 Snow Leopard.
+- _2018-10-3_ Added license to the downloads.  
