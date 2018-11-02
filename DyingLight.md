@@ -218,5 +218,5 @@ Log out and log b​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿
 
 ### <strong>_Changelog_</strong> <a name="changelog"></a>
 
-- _2018-10-26_ Fixed undiscovered incompatiblilies with OS X 10.6 Snow Leopard.
+- _2018-10-26_ Fixed undiscovered incompatibilities with OS X 10.6 Snow Leopard.
 - _2018-10-3_ Added license to the downloads.  
