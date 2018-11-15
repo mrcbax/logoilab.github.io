@@ -2,7 +2,7 @@
 layout: post
 title: MuxHat: MacBook gMux bypass mods done easy.
 author: Chad Baxter
-date: 2018-09-24
+date: 2018-11-19
 tags: ["MacBook", "Mod", "gMux", "OS X", "Graphics"]
 ---
 
