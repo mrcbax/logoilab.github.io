@@ -16,7 +16,7 @@ There was one slight problem. This mod required the owner to pass 3.3v to the ba
 
 Quite simply a solution to output the proper PWM signal to the backlight controller was nee​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ded. This was easy, until you factor in the fact that the user is going to want to control the backlight using the native controls on their system. DosDude and I began our deep dive into hardware modding taking on the concatenation of our usern​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ames _Dos_**Lab** as our psuedonym for this project. Below you will learn all about project **DyingLight** including how to use it to return your MacBook to almost-native glory.
 
-if you would like you can [DONATE](https://cpcde.page.link/FJXh) to the project. This will help bring production cost down.
+If you would like you can [DONATE](https://cpcde.page.link/FJXh) to the project. This will help bring production cost down.
 
 ## Table of contents
 - [Hardware](#hardware)
@@ -219,4 +219,4 @@ Log out and log b​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿
 ### <strong>_Changelog_</strong> <a name="changelog"></a>
 
 - _2018-10-26_ Fixed undiscovered incompatibilities with OS X 10.6 Snow Leopard.
-- _2018-10-3_ Added license to the downloads.  
+- _2018-10-3_ Added license to the downloads.
