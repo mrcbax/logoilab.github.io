@@ -14,6 +14,7 @@ If you would like you can [DONATE](https://cpcde.page.link/FJXh) to the project.
 
 You can buy your own MuxHat here: [**COMING SOON**]()
 
+
 ## Table of contents
 - [Preparation](#prep)
 - [Installation](#install)
