@@ -8,7 +8,7 @@ Posts
 
 <hr>
 
-<strong> _2018-09-24_ [MuxHat: Making GPU modding easy.](MuxHat.html)</strong>
+<strong> _2018-11-28_ [MuxHat: Making GPU modding easy.](MuxHat.html)</strong>
 ---
 
 A simple solution to a complex problem. Round two.
