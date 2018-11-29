@@ -8,10 +8,17 @@ Posts
 
 <hr>
 
+<strong> _2018-09-24_ [MuxHat: Making GPU modding easy.](MuxHat.html)</strong>
+---
+
+A simple solution to a complex problem. Round two.
+
+<hr>
+
 <strong> _2018-09-24_ [DyingLight: Software and Hardware to Bring Back Brightness Functionality of MacBooks.](DyingLight.html)</strong>
 ---
 
-
+A simple solution to a complex problem.
 
 <hr>
 
