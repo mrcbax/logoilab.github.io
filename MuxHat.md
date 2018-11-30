@@ -12,7 +12,7 @@ This project was conceived to drastically reduce the amount of time and skill ne
 
 If you would like you can [DONATE](https://cpcde.page.link/FJXh) to the project. This will help bring production cost down.
 
-You can buy your own MuxHat here: [**COMING SOON**]() *ETA: 10 Days*
+You can buy your own MuxHat here: [**COMING SOON**]() *ETA: 9 Days*
 
 
 ## Table of contents
