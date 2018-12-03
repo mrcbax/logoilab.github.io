@@ -12,7 +12,7 @@ This project was conceived to drastically reduce the amount of time and skill ne
 
 If you would like you can [DONATE](https://cpcde.page.link/FJXh) to the project. This will help bring production cost down.
 
-You can buy your own MuxHat here: [**COMING SOON**]() *ETA: 9 Days*
+You can buy your own MuxHat here: [**COMING SOON**]() *ETA: 7 Days*
 
 
 ## Table of contents
@@ -78,6 +78,6 @@ To wire these lines, I recom​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​�
 
 If you will be performing this m​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​﻿​​﻿​﻿﻿﻿﻿​﻿​﻿​​﻿​﻿﻿﻿​​​﻿​﻿​﻿​​odification, AND installing a DyingLight module<a name="dying_light"></a>, follow the procedure for installing DyingLight, found [here](https://cpcde.page.link/DuM5). If not, the following connectio​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​﻿​​﻿​﻿﻿﻿﻿​﻿​﻿​​﻿​﻿﻿﻿​​​﻿​﻿​﻿​​n must be made:
 
-- **BKL_PWM** to **PP3V3_S0**: Connect the pin 2 pad of removed **R9704** to pin 1 of **R9202
+- **BKL_PWM** to **PP3V3_S0**: Connect the pin 2 pad of removed **R9704** to pin 1 of **R9202**
 
 **That's it! You've comp​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​﻿​​﻿​﻿﻿﻿﻿​﻿​﻿​​﻿​﻿﻿﻿​​​﻿​﻿​﻿​​leted the install of a MuxHat.**
