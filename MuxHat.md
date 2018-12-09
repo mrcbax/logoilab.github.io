@@ -12,7 +12,7 @@ This project was conceived to drastically reduce the amount of time and skill ne
 
 If you would like you can [DONATE](https://cpcde.page.link/FJXh) to the project. This will help bring production cost down.
 
-You can buy your own MuxHat here: [**COMING SOON**]() *ETA: 3 Days production parts received, boards are being balled.*
+You can buy your own MuxHat here: [**EBay Link**](https://cpcde.page.link/oPPX) *Just in time for the holidays! Please try to limit your order quantity so that more people can all have a happy holiday season.*
 
 
 ## Table of contents
