@@ -14,6 +14,8 @@ If you would like you can [DONATE](https://cpcde.page.link/FJXh) to the project.
 
 You can buy your own MuxHat here: [**EBay Link**](https://cpcde.page.link/oPPX) *We are currently sold out of the initial batch. We will be waiting on reviews of the functionality of the product from the buyers before offering more for sale.*
 
+We have done tireless testing of MuxHat with multiple different devices and have identified only a single issue. For most devices this issue will not occur but it still may so we're posting it here. For some reason there is a particular display module that doesn't like the way the clock lines are routed on the MuxHat. These LCDs will look absolutely horrible when using MuxHat. It is recommended to swap the LCD for one that works with MuxHat, if you have one on hand. We can offer a refund for the value of the board if you don't. Unfortunately there is no way to determine if the LCD won't like MuxHat without trying it first. We know what an incompatible LCD looks like when it displays using MuxHat and will only be able to offer the refund if you can provide a picture.
+
 
 ## Table of contents
 - [Preparation](#prep)
