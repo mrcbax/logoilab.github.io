@@ -12,7 +12,7 @@ This project was conceived to drastically reduce the amount of time and skill ne
 
 If you would like you can [DONATE](https://cpcde.page.link/FJXh) to the project. This will help bring production cost down.
 
-You can buy your own MuxHat here: [**EBay Link**](https://cpcde.page.link/oPPX) *Just in time for the holidays! Please try to limit your order quantity so that more people can all have a happy holiday season.*
+You can buy your own MuxHat here: [**EBay Link**](https://cpcde.page.link/oPPX) *We are currently sold out of the initial batch. We will be waiting on reviews of the functionality of the product from the buyers before offering more for sale.*
 
 
 ## Table of contents
@@ -28,7 +28,7 @@ You can buy your own MuxHat here: [**EBay Link**](https://cpcde.page.link/oPPX) 
 
 Before installation, a few things need to be modified on your logic board. First, you must remove the adhesive edges from the gMux IC. To do this, heat the bottom of the board, underneath the area where the gMux IC is located. Once the board gets hot, use a pair of fine tweezers to pul​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​﻿​​﻿​﻿﻿﻿﻿​﻿​﻿​​﻿​﻿﻿﻿​​​﻿​﻿​﻿​​l up the adhesive from each corner of the chip. If the board is hot enough, they should come off very easily with minimal effort.
 
-Next, two resistors need to be removed. First, **R8911**, and then **R9704. To remove these, either use your hot air station and tweezers to heat and remove the resistor from the board, or, put a blob of solder onto your soldering iron, and run it overtop the re​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​﻿​​﻿​﻿﻿﻿﻿​﻿​﻿​​﻿​﻿﻿﻿​​​﻿​﻿​﻿​​sistor. It should come off with no force at all, and get consumed into your solder blob.
+Next, two resistors need to be removed. First, **R8911**, and then **R9704**. To remove these, either use your hot air station and tweezers to heat and remove the resistor from the board, or, put a blob of solder onto your soldering iron, and run it overtop the re​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​﻿​​﻿​﻿﻿﻿﻿​﻿​﻿​​﻿​﻿﻿﻿​​​﻿​﻿​﻿​​sistor. It should come off with no force at all, and get consumed into your solder blob.
 
 ## Installing ​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​﻿​​﻿​﻿﻿﻿﻿​﻿​﻿​​﻿​﻿﻿﻿​​​﻿​﻿​﻿​​the MuxHat<a name="install"></a>
 
