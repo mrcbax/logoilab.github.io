@@ -53,7 +53,7 @@ DyingLight is a simple USB v1.1 device that is solde​﻿​﻿﻿​﻿﻿﻿�
 
 You can purchase your own module from EBay <strong>[HERE](https://www.ebay.com/itm/292891728547)<strong><a name="buy"></a> *A new batch is ready.
 
-**There is a waitlist here:** [Google Form](https://cpcde.page.link/MhtA)
+<!--There is a waitlist here: [Google Form](https://cpcde.page.link/MhtA)-->
 
 To install the device, it is recommended to connect each pad on the DyingLight board to its respective point on the MacBook logic board using small jumper wires. Route these wires to be long enough to reach from the hard disk drive area (17" MacBooks) or beside the wireless module (15" MacBooks) to the respective points on the logic board. First, though, a few components need to be removed from the board, in addition to those removed to perform the inital gMux IC bypass. First, **R9704** needs to be removed. This resistor is what connects the **BKLT_PWM** rail to the gMux IC, and removing it will prevent the gMux from pulling the line down. Second, the 2 pullup resistors on the unused USB data lines need to be removed. These are **R0915** and **R0916**. Once these are removed, we are now ready to begin soldering the wires.
 
