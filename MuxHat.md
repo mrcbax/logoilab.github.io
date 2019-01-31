@@ -16,8 +16,7 @@ You can buy your own MuxHat here: [EBay Link](https://cpcde.page.link/17gV) MuxH
 
 **There is a waitlist here if the listing is sold out:** [Google Form](https://cpcde.page.link/NYXZ)
 
-We have done tireless testing of MuxHat with multiple different devices and have identified only a single issue. For most devices this issue will not occur but it still may so we're posting it here. For some reason there is a particular display module that doesn't like the way the clock lines are routed on the MuxHat. These LCDs will look absolutely horrible when using MuxHat. It is recommended to swap the LCD for one that works with MuxHat, if you have one on hand. We can offer a refund for the value of the board if you don't. Unfortunately there is no way to determine if the LCD won't like MuxHat without trying it first. We know what an incompatible LCD looks like when it displays using MuxHat and will only be able to offer the refund if you can provide a picture.
-
+After many revisions and testing. We decided to read the **LVDS Implementation Manual**. We quickly learned the issues of crosstalk in such a low voltage application. Time is being spent to rememdy any issues of previous revisions of MuxHat. Please bear with us while we make the product as close to the LVDS spec as possible. We estimate to be done before the end of January. Those who already  have a MuxHat, please let us know of any issues you may have so that we can get you a replacement if needed. You can contact [doslabelectronics@gmail.com](mailto:doslabelectronics@gmail.com).
 
 ## Table of contents
 - [Preparation](#prep)

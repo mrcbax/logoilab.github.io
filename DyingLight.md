@@ -212,7 +212,8 @@ Log out and log b​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿
 
 ### <strong>_Downlo​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ads_</strong> <a name="downloads"></a>
 
-DosLab Electronics PGP Fingerprint: [466D 4965 9314 C575 D37E 5BBE A8ED EE6E DEBE CAEE](https://cpcde.page.link/47gm)
+DosLab Electronics PGP Fingerprint: [466D 4965
+9314 C575 D37E 5BBE A8ED EE6E DEBE CAEE](https://cpcde.page.link/47gm)
 
 [Mac OS X >= 10.6 Sn​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ow Leopard 64-bit](https://cpcde.page.link/corR) PGP signed version: [here](https://cpcde.page.link/eyV5)
 
