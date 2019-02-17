@@ -226,9 +226,10 @@ SHA256: *c414305a9265593b5f9a9ee338c8053d2c9df3de28280c00dbc2cdff6521cbac*
 
 [Li​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿nux 64-bit](https://cpcde.page.link/sCZS) PGP signed version: [here](https://cpcde.page.link/K8rE)
 
-SHA256: *ab2a544ebd5cb90a9a1ae4846ca44dae756843b97005836006b3abb45483d2b5*
+SHA256: *d615c58dd239c8c23e1c45f32a70cea5ca948211876bc7e87381f4a96facbcb7*
 
 ### <strong>_Changelog_</strong> <a name="changelog"></a>
 
 - _2018-10-26_ Fixed undiscovered incompatibilities with OS X 10.6 Snow Leopard.
 - _2018-10-3_ Added license to the downloads.
+- _2019-2-17_ Updated Linux binary to fix erroneous error reporting.
