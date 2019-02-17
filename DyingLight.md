@@ -221,7 +221,7 @@ SHA256: *e34f1ef2a80fbec0e6ae28b5ee4fbf467a96d3350bef8798868160b77981600f*
 
 [Win​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿dows 7/8/10 64-bit](https://cpcde.page.link/CnyS) PGP signed version: [here](https://cpcde.page.link/Q8V6)
 
-SHA256: *c414305a9265593b5f9a9ee338c8053d2c9df3de28280c00dbc2cdff6521cbac*
+SHA256: *f9874a1f0d0dce4ecce40cecad52ea52702eedb5417bd6a331e7aeecfd13bb79*
 
 
 [Li​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿nux 64-bit](https://cpcde.page.link/sCZS) PGP signed version: [here](https://cpcde.page.link/K8rE)
@@ -231,5 +231,6 @@ SHA256: *d615c58dd239c8c23e1c45f32a70cea5ca948211876bc7e87381f4a96facbcb7*
 ### <strong>_Changelog_</strong> <a name="changelog"></a>
 
 - _2019-2-17_ Updated Linux binary to fix erroneous error reporting.
+
 - _2018-10-26_ Fixed undiscovered incompatibilities with OS X 10.6 Snow Leopard.
 - _2018-10-3_ Added license to the downloads.
