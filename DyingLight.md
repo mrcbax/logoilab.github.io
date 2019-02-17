@@ -230,7 +230,7 @@ SHA256: *d615c58dd239c8c23e1c45f32a70cea5ca948211876bc7e87381f4a96facbcb7*
 
 ### <strong>_Changelog_</strong> <a name="changelog"></a>
 
-- _2019-2-17_ Updated Linux binary to fix erroneous error reporting.
+- _2019-2-17_ Updated Linux and Windows binary to fix erroneous error reporting.
 
 - _2018-10-26_ Fixed undiscovered incompatibilities with OS X 10.6 Snow Leopard.
 - _2018-10-3_ Added license to the downloads.
