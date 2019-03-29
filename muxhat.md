@@ -16,7 +16,9 @@ You can buy your own MuxHat here: [EBay Link](https://cpcde.page.link/17gV) MuxH
 
 **There is a waitlist here if the listing is sold out:** [Google Form](https://cpcde.page.link/NYXZ)
 
-After many revisions and testing. We decided to read the **LVDS Implementation Manual**. We quickly learned the issues of crosstalk in such a low voltage application. Time is being spent to rememdy any issues of previous revisions of MuxHat. Please bear with us while we make the product as close to the LVDS spec as possible. We estimate to be done before the end of January. Those who already  have a MuxHat, please let us know of any issues you may have so that we can get you a replacement if needed. You can contact [doslabelectronics@gmail.com](mailto:doslabelectronics@gmail.com).
+The current issue regarding the LVDS specification has been resolved. The latest version being sold now adheres to the specification.
+
+You can contact [doslabelectronics@gmail.com](mailto:doslabelectronics@gmail.com).
 
 ## Table of contents
 - [Preparation](#prep)
