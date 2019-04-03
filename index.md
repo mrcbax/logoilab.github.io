@@ -15,6 +15,14 @@ Posts
 
 <hr>
 
+<strong> _2019-04-03_ [Upcoming Firmware Flasher for 2011 MacBook gMux](2019-04-03_1.html)</strong>
+---
+
+An announcement regarding a recent pre-release video as well as a scam alert for those seeking repairs.
+
+
+<hr>
+
 <strong> _2018-11-28_ [MuxHat: Making GPU modding easy.](MuxHat.html)</strong>
 ---
 
