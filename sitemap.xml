@@ -6,7 +6,12 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://computeco.de/2018-06-09_1.html</loc>
+    <loc>https://computeco.de/2019-04-03_1.html</loc>
+    <lastmod>2019-04-03</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://computeco.de/2018-07-29_1.html</loc>
     <lastmod>2018-11-16</lastmod>
     <changefreq>weekly</changefreq>
   </url>
@@ -16,22 +21,22 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://computeco.de/DyingLight.html</loc>
+    <loc>https://computeco.de/2018-06-09_1.html</loc>
     <lastmod>2018-11-16</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://computeco.de/DyingLight.html</loc>
+    <lastmod>2019-01-30</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://computeco.de/MuxHat.html</loc>
-    <lastmod>2018-11-16</lastmod>
+    <lastmod>2019-01-30</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://computeco.de/assets/img/pcb-brd.svg</loc>
-    <lastmod>2018-11-16</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://computeco.de/2018-07-29_1.html</loc>
     <lastmod>2018-11-16</lastmod>
     <changefreq>weekly</changefreq>
   </url>
