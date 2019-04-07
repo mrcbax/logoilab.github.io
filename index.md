@@ -22,8 +22,6 @@ A new project designed to make comment header addition to existing source code a
 
 <hr>
 
-<hr>
-
 <strong> _2019-04-03_ [Upcoming Firmware Flasher for 2011 MacBook gMux](2019-04-03_1.html)</strong>
 ---
 
