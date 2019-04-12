@@ -33,13 +33,6 @@ If you would like you can [DONATE](https://cpcde.page.link/FJXh) to the project.
   - [Changelog](#changelog)
 
 ## Hardware<a name="hardware"></a>
-<div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
-<a href="assets/img/pcb-brd.svg"><img src="assets/img/smd_pcb-brd.svg" height="25%" width="25%">
-<br>
-<strong>The Mk.II DyingLight PCB</strong></a>
-<br>
-<p>Actual size: 18mmx19mm</p>
-</div>
 
 ### Overview <a name="hw_overview"></a>
 
