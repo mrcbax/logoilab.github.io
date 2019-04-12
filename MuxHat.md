@@ -37,14 +37,6 @@ Next, two resistors need to be removed. First, **R8911**, and then **R9704**. To
 
 ## Installing ​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​﻿​​﻿​﻿﻿﻿﻿​﻿​﻿​​﻿​﻿﻿﻿​​​﻿​﻿​﻿​​the MuxHat<a name="install"></a>
 
-<div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
-<a href="assets/img/gpumod-brd.svg"><img src="assets/img/gpumod-brd.svg" height="25%" width="25%">
-<br>
-<strong>The MuxHat PCB</strong></a>
-<br>
-<p>Actual size: 15mmx18mm</p>
-</div>
-
 Place the MuxHat board on top of the gMux IC, aligning the black triangle with the top left corner of the IC.​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​﻿​​﻿​﻿﻿﻿﻿​﻿​﻿​​﻿​﻿﻿﻿​​​﻿​﻿​﻿​​ Make sure the IC is against the top right corner of the cut out and flush on all sides (it should sit perfectly level with the gMux IC). See the picture below.
 
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
