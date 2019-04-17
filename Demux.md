@@ -60,9 +60,10 @@ If you don't yet have a license key, you'll need to [purchase one](https://selly
 ### Demux client<a name="client"></a>
 
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
-<a href="assets/img/demux_util.png"><img src="assets/img/demux_util.png" height="20%" width="20%">
+<a href="assets/img/demux_util.png"><img src="assets/img/demux_util.png" height="35%" width="35%">
 <br>
 <strong>The Demux utility ready to flash.</strong></a>
+<br>
 </div>
 
 
@@ -73,32 +74,33 @@ Next, open up the Demux flashing application. Here, you will need to enter the l
 
 ## Preparing your programmer<a name="programmer"></a>
 
+In order to prepare the hardware for gMux flashing, you will need to correctly connect your Lattice programmer to the gMux IC JTAG header of your MacBook logic board. This will require either soldering wires to each pad of the header, or using our custom pogo-pin solderless connector (coming soon).
+
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
-<a href="assets/img/programmer-min.png"><img src="assets/img/programmer-min.png" height="20%" width="20%">
+<a href="assets/img/programmer-min.png"><img src="assets/img/programmer-min.png" height="30%" width="30%">
 <br>
 <strong>The Lattice programmer ready to go.</strong></a>
+<br>
 </div>
-
-
-
-In order to prepare the hardware for gMux flashing, you will need to correctly connect your Lattice programmer to the gMux IC JTAG header of your MacBook logic board. This will require either soldering wires to each pad of the header, or using our custom pogo-pin solderless connector (coming soon).
 
 ### Soldering<a name="solder"></a>
 
 To solder the JTAG wires to the logic board, start by tinning each of the 6 header pads with fresh solder. Then, strip and tin 6 wires that you can connect to your Lattice programmer. Solder each wire to the respective pin, as shown in the diagrams below:
 
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
-<a href="assets/img/15in-min.png"><img src="assets/img/15in-min.png" height="20%" width="20%">
+<a href="assets/img/15in-min.png"><img src="assets/img/15in-min.png" height="30%" width="30%">
 <br>
 <strong>15" Board (820-2915)"</strong></a>
+<br>
 </div>
 
 
 
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
-<a href="assets/img/17in-min.png"><img src="assets/img/17in-min.png" height="20%" width="20%">
+<a href="assets/img/17in-min.png"><img src="assets/img/17in-min.png" height="30%" width="30%">
 <br>
 <strong>17" board (820-2914)</strong></a>
+<br>
 </div>
 
 
