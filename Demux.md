@@ -59,11 +59,23 @@ If you don't yet have a license key, you'll need to [purchase one](https://selly
 
 ### Demux client<a name="client"></a>
 
+<div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
+<a href="assets/img/demux_util.png"><img src="assets/img/dmux_util.png" height="5%" width="5%">
+<br>
+<strong>The Demux utility ready to flash.</strong></a>
+</div>
+
 Next, open up the Demux flashing application. Here, you will need to enter the license key you purchased. If it's a valid key, the program will indicate so. Once the license has been verified as valid, you can proceed to the next steps.
 
 - Please note that once a license key is verified as valid on one machine, it CANNOT be used on another.
 
 ## Preparing your programmer<a name="programmer"></a>
+
+<div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
+<a href="assets/img/programmer-min.png"><img src="assets/img/programmer-min.png" height="5%" width="5%">
+<br>
+<strong>The Lattice programmer ready to go.</strong></a>
+</div>
 
 In order to prepare the hardware for gMux flashing, you will need to correctly connect your Lattice programmer to the gMux IC JTAG header of your MacBook logic board. This will require either soldering wires to each pad of the header, or using our custom pogo-pin solderless connector (coming soon).
 
