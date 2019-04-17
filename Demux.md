@@ -1,12 +1,12 @@
 ---
 layout: post
-title: DeMux: MuxHat in software form.
+title: DeMux: MuxHat in software form
 author: Chad Baxter
-date: 2018-09-24
+date: 2018-09-17
 tags: ["MacBook", "dGPU", "Hardware", "Mod", "gMux", "os x", "Graphics"]
 ---
 
-# DeMux: MuxHat in software form.
+# DeMux: MuxHat in software form
 
 DosLab Electronics is proud to announce that DeMux is ready for release. Below, you will find details on how to use it to flash the gMux IC on your MacBook Pro logic board.
 
