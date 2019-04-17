@@ -12,6 +12,8 @@ DosLab Electronics is proud to announce that DeMux is ready for release. Below, 
 
 If you have already got everything set up you can [purchase license keys here](https://selly.gg/p/d97a35a0).
 
+Questions, comments, and concerns can be forwarded to the [DosLab Electronics email](mailto:doslabelectronics@gmail.com)
+
 ## Table of contents
 
 - [Preparation](#prep)
