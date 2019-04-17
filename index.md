@@ -15,6 +15,13 @@ Posts
 
 <hr>
 
+<strong> _2019-04-17_ [ DeMux: MuxHat in software form](Demux.html)</strong>
+---
+
+Installation and usage instructions for the DeMux flashing utility.
+
+<hr>
+
 <strong> _2019-04-07_ [Commenteer: Code Commenting Made Easy](2019-04-07_1.html)</strong>
 ---
 
