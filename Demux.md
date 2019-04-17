@@ -59,6 +59,10 @@ If you don't yet have a license key, you'll need to [purchase one](https://selly
 
 ### Demux client<a name="client"></a>
 
+Next, open up the Demux flashing application. Here, you will need to enter the license key you purchased. If it's a valid key, the program will indicate so. Once the license has been verified as valid, you can proceed to the next steps.
+
+- Please note that once a license key is verified as valid on one machine, it CANNOT be used on another.
+
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
 <a href="assets/img/demux_util.png"><img src="assets/img/demux_util.png" height="35%" width="35%">
 <br>
@@ -66,11 +70,7 @@ If you don't yet have a license key, you'll need to [purchase one](https://selly
 <br>
 </div>
 
-
-
-Next, open up the Demux flashing application. Here, you will need to enter the license key you purchased. If it's a valid key, the program will indicate so. Once the license has been verified as valid, you can proceed to the next steps.
-
-- Please note that once a license key is verified as valid on one machine, it CANNOT be used on another.
+<br>
 
 ## Preparing your programmer<a name="programmer"></a>
 
@@ -83,6 +83,8 @@ In order to prepare the hardware for gMux flashing, you will need to correctly c
 <br>
 </div>
 
+<br>
+
 ### Soldering<a name="solder"></a>
 
 To solder the JTAG wires to the logic board, start by tinning each of the 6 header pads with fresh solder. Then, strip and tin 6 wires that you can connect to your Lattice programmer. Solder each wire to the respective pin, as shown in the diagrams below:
@@ -94,7 +96,7 @@ To solder the JTAG wires to the logic board, start by tinning each of the 6 head
 <br>
 </div>
 
-
+<br>
 
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
 <a href="assets/img/17in-min.png"><img src="assets/img/17in-min.png" height="30%" width="30%">
@@ -103,7 +105,7 @@ To solder the JTAG wires to the logic board, start by tinning each of the 6 head
 <br>
 </div>
 
-
+<br>
 
 ### No soldering<a name="nsolder"></a>
 
