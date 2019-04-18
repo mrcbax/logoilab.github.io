@@ -207,17 +207,17 @@ Log out and log b​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿
 
 [![PGP 0xDEBECAEE](https://peegeepee.com/badge/orange/DEBECAEE.svg)](https://peegeepee.com/DEBECAEE)
 
-[Mac OS X >= 10.6 Sn​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ow Leopard 64-bit](https://cpcde.page.link/corR) PGP signed version: [here](https://cpcde.page.link/eyV5)
+[Mac OS X >= 10.6 Sn​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ow Leopard 64-bit](https://cpcde.page.link/corR) PGP signed version: [here](https://computeco.de/well-known/x86_64-apple-darwin-DyingLight.zip.sig)
 
 SHA256: *e34f1ef2a80fbec0e6ae28b5ee4fbf467a96d3350bef8798868160b77981600f*
 
 
-[Win​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿dows 7/8/10 64-bit](https://cpcde.page.link/CnyS) PGP signed version: [here](https://cpcde.page.link/Q8V6)
+[Win​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿dows 7/8/10 64-bit](https://cpcde.page.link/CnyS) PGP signed version: [here](https://computeco.de/well-known/x86_64-pc-windows-gnu-DyingLight.zip.sig)
 
 SHA256: *f9874a1f0d0dce4ecce40cecad52ea52702eedb5417bd6a331e7aeecfd13bb79*
 
 
-[Li​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿nux 64-bit](https://cpcde.page.link/sCZS) PGP signed version: [here](https://cpcde.page.link/K8rE)
+[Li​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿nux 64-bit](https://cpcde.page.link/sCZS) PGP signed version: [here](https://computeco.de/well-known/x86_64-unknown-linux-gnu-DyingLight.zip.sig)
 
 SHA256: *d615c58dd239c8c23e1c45f32a70cea5ca948211876bc7e87381f4a96facbcb7*
 

@@ -10,7 +10,7 @@ tags: ["MacBook", "dGPU", "Hardware", "Mod", "gMux", "os x", "Graphics"]
 
 DosLab Electronics is proud to announce that DeMux is ready for release. Below, you will find details on how to use it to flash the gMux IC on your MacBook Pro logic board.
 
-If you have already got everything set up you can [purchase license keys here](https://selly.gg/p/d97a35a0).
+If you have already got everything set up, you can [purchase license keys here](https://selly.gg/p/d97a35a0).
 
 Questions, comments, and concerns can be forwarded to the [DosLab Electronics email](mailto:doslabelectronics@gmail.com)
 
@@ -31,7 +31,7 @@ Questions, comments, and concerns can be forwarded to the [DosLab Electronics em
 
 To get started, you'll need the following:
 
-- A Lattice HW-USBN-2A ICSP FPGA Programmer
+- A Lattice HW-USBN-2A ICSP FPGA Programmer (you can get one cheaply [here](https://cpcde.page.link/axst))
 - Wires and connector to connect from the Lattice programmer to the MacBook logic board.
 - A copy of the DeMux flashing software
 
@@ -45,9 +45,9 @@ A 64 Bit Windows system is required to use DeMux.
 
 Download the following package:
 
-[Windows 64-bit](https://cpcde.page.link/Aj4R) PGP signed version: [here](https://cpcde.page.link/nwxF) [![PGP 0xDEBECAEE](https://peegeepee.com/badge/orange/DEBECAEE.svg)](https://peegeepee.com/DEBECAEE)
+[Windows 64-bit](https://cpcde.page.link/Aj4R) PGP signature: [here](https://computeco.de/well-known/demux.zip.sig) [![PGP 0xDEBECAEE](https://peegeepee.com/badge/orange/DEBECAEE.svg)](https://peegeepee.com/DEBECAEE)
 
-SHA256: *18c020de09ed9e91efa024a987f8c36dc386f35c49f826029d4e92c3d1109632*
+SHA256: *d2d3d09635d047d29dcf51bec412a527a047b801d26bf26f6a2fba57d3bdde67*
 
 Once the package is downloaded, go ahead an extract it somewhere safe. You are now ready for the next step.
 
@@ -94,7 +94,7 @@ To solder the JTAG wires to the logic board, start by tinning each of the 6 head
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
 <a href="assets/img/15in-min.png"><img src="assets/img/15in-min.png" height="30%" width="30%">
 <br>
-<strong>15" Board (820-2915)"</strong></a>
+<strong>15" Board (820-2915)</strong></a>
 <br>
 </div>
 
@@ -103,7 +103,7 @@ To solder the JTAG wires to the logic board, start by tinning each of the 6 head
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
 <a href="assets/img/17in-min.png"><img src="assets/img/17in-min.png" height="30%" width="30%">
 <br>
-<strong>17" board (820-2914)</strong></a>
+<strong>17" Board (820-2914)</strong></a>
 <br>
 </div>
 
