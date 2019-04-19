@@ -6,11 +6,13 @@ date: 2018-09-17
 tags: ["MacBook", "dGPU", "Hardware", "Mod", "gMux", "os x", "Graphics"]
 ---
 
+<script src="https://embed.selly.gg"></script>
+
 # DeMux: MuxHat in software form
 
 DosLab Electronics is proud to announce that DeMux is ready for release. Below, you will find details on how to use it to flash the gMux IC on your MacBook Pro logic board.
 
-If you have already got everything set up, you can [purchase license keys here](https://selly.gg/p/d97a35a0). (If you would like to do a bulk order please contact us before purchasing, we may be able to give you a discount.)
+If you have already got everything set up, you can <button data-selly-product="d97a35a0">Purchase A License Key</button> (If you would like to do a bulk order please contact us before purchasing, we may be able to give you a discount.)
 
 Questions, comments, and concerns can be forwarded to the [DosLab Electronics email](mailto:doslabelectronics@gmail.com)
 
@@ -58,6 +60,7 @@ Once the package has been extracted, plug your Lattice HW-USBN-2A ICSP programme
 ### License keys<a name="licensing"></a>
 
 If you don't yet have a license key, you'll need to [purchase one](https://selly.gg/p/d97a35a0). Keys cost $20 each, and are good for one gMux IC flash. Once purchased, save the key in a safe place, as it will be needed later. (If you would like to do a bulk order please contact us before purchasing, we may be able to give you a discount.)
+
 
 ### DeMux client<a name="client"></a>
 
