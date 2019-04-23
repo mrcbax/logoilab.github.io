@@ -15,7 +15,7 @@ function onload() {var button = document.getElementsByClassName("uc_yv");if(butt
 
 DosLab Electronics is proud to announce that DeMux is ready for release. Below, you will find details on how to use it to flash the gMux IC on your MacBook Pro logic board.
 
-If you have already got everything set up, you can <button data-selly-product="d97a35a0" onclick="ga('send', 'purchases', 'initiate_buy', 'demux');">Purchase A License Key</button><a name="purchase"></a> (If you would like to do a bulk order please contact us before purchasing, we may be able to give you a discount.)
+If you have already got everything set up, you can <button data-selly-product="d97a35a0" onclick="ga('send', 'purchases', 'initiate_buy', 'demux')">Purchase A License Key</button><a name="purchase"></a> (If you would like to do a bulk order please contact us before purchasing, we may be able to give you a discount.)
 
 Questions, comments, and concerns can be forwarded to the [DosLab Electronics email](mailto:doslabelectronics@gmail.com)
 
