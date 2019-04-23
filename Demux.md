@@ -16,6 +16,10 @@ If you have already got everything set up, you can <button data-selly-product="d
 
 Questions, comments, and concerns can be forwarded to the [DosLab Electronics email](mailto:doslabelectronics@gmail.com)
 
+### Important note
+
+Based on some testing and feedback from users, it has become apparent that there is a slight issue with the firmware affecting some 17" machines. On these systems, when applied, you will notice a slight blue tinge to the image, but the system will work perfectly fine otherwise. We are actively working on fixing this issue, but in the meantime it is recommended to stick to using this on 15" machines only, which do not have this issue.
+
 ## Table of contents
 
 - [Preparation](#prep)
