@@ -8,7 +8,21 @@ tags: ["MacBook", "dGPU", "Hardware", "Mod", "gMux", "os x", "Graphics"]
 
 <script src="https://embed.selly.gg"></script>
 <script>
-function onload() {var button = document.getElementsByClassName("uc_yv");if(button.addEventListener){button.addEventListener("click", function() {ga('send', 'event', 'purchases', 'purchase_clicked', 'demux', 20);});} else {button.attachEvent("click", function() {ga('send', 'event', 'purchases', 'purchase_clicked', 'demux', 20);});};};window.onload = onload;
+function onload() {
+var button = document.getElementsByClassName("uc_yv");
+var exit_button = document.getElementsByClassName("selly-close");
+if(exit_button.addEventListener) {
+exit_button.addEventListener("click", function() {ga('send', 'event', 'purchases', 'purchase_canceled', 'demux', 20);});
+} else {
+exit_button.attachEvent("click", function() {ga('send', 'event', 'purchases', 'purchase_canceled', 'demux', 20);});
+};
+if(button.addEventListener) {
+button.addEventListener("click", function() {ga('send', 'event', 'purchases', 'purchase_clicked', 'demux', 20);});
+} else {
+button.attachEvent("click", function() {ga('send', 'event', 'purchases', 'purchase_clicked', 'demux', 20);});
+};
+};
+window.onload = onload;
 </script>
 
 # DeMux: MuxHat in software form
