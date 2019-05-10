@@ -6,6 +6,7 @@ date: 2018-09-17
 tags: ["MacBook", "dGPU", "Hardware", "Mod", "gMux", "os x", "Graphics"]
 ---
 
+<title>DeMux: MuxHat in software form</title>
 
 <script src="https://embed.selly.gg"></script>
 <script>
