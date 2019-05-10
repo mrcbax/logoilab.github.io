@@ -143,7 +143,7 @@ To solder the JTAG wires to the logic board, start by tinning each of the 6 head
 
 ### No soldering<a name="nsolder"></a>
 
-This option is coming soon. We will be providing pogo-pin based connector that allows for flashing of the gMux without the need for soldering.
+This option is coming soon. We will be providing pogo-pin based connector that allows for flashing of the gMux without the need for soldering. COmponents and PCBs have been delivered, the connectors are currently being assembled. Please sit tight we should have these available before the end of May.
 
 ## Flashing<a name="flashing"></a>
 
