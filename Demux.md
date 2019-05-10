@@ -37,6 +37,14 @@ Questions, comments, and concerns can be forwarded to the [DosLab Electronics em
 
 Based on some testing and feedback from users, it has become apparent that there is a slight issue with the firmware affecting some 17" machines. On these systems, when applied, you will notice a slight blue tinge to the image, but the system will work perfectly fine otherwise. We are actively working on fixing this issue, but in the meantime it is recommended to stick to using this on 15" machines only, which do not have this issue.
 
+If you are getting errors saying a DLL is missing please install the following Microsoft Redistributable:
+
+[Microsoft Visual C++ 2012 Rev4](https://www.microsoft.com/en-us/download/details.aspx?id=30679)
+
+Please make sure you are installing the 64-bit version by selecting it in the menu that comes up when you click "Download".
+
+
+
 ## Table of contents
 
 - [Preparation](#prep)
