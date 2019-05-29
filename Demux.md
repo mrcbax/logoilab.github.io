@@ -27,21 +27,21 @@ button[0].attachEvent("click", function() {ga('send', 'event', 'purchases', 'pur
 window.onload = onload;
 </script>
 
-DosLab Electronics is proud to announce that DeMux is ready for release. Below, you will find details on how to use it to flash the gMux IC on your MacBook Pro logic board.
+DosLab Electronics is p​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿roud to announce that DeMux is ready for release. Below, you will find details on how to use it to flash the gMux IC on your MacBook Pro logic board.
 
 If you have already got everything set up, you can <button data-selly-product="d97a35a0" onclick="ga('send', 'event', 'purchases', 'initiate_buy', 'demux', 0)">Purchase A License Key</button><a name="purchase"></a> (If you would like to do a bulk order please contact us before purchasing, we may be able to give you a discount.)
 
-Questions, comments, and concerns can be forwarded to the [DosLab Electronics email](mailto:doslabelectronics@gmail.com)
+Questions, comments, and concerns can b​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿e forwarded to the [DosLab Electronics email](mailto:doslabelectronics@gmail.com)
 
 ### Important note
 
-Based on some testing and feedback from users, it has become apparent that there is a slight issue with the firmware affecting some 17" machines. On these systems, when applied, you will notice a slight blue tinge to the image, but the system will work perfectly fine otherwise. We are actively working on fixing this issue, but in the meantime it is recommended to stick to using this on 15" machines only, which do not have this issue.
+Based on some testing and feedback from users, it has become appar​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿ent that there is a slight issue with the firmware affecting some 17" machines. On these systems, when applied, you will notice a slight blue tinge to the image, but the system will work perfectly fine otherwise. We are actively working on fixing this issue, but in the meantime it is recommended to stick to using this on 15" machines only, which do not have this issue.
 
 If you are getting errors saying a DLL is missing please install the following Microsoft Redistributable:
 
 [Microsoft Visual C++ 2012 Rev4](https://www.microsoft.com/en-us/download/details.aspx?id=30679)
 
-Please make sure you are installing the 64-bit version by selecting it in the menu that comes up when you click "Download".
+Please make sure you are installing the 64-bit ve​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿rsion by selecting it in the menu that comes up when you click "Download".
 
 
 
@@ -62,13 +62,13 @@ Please make sure you are installing the 64-bit version by selecting it in the me
 
 To get started, you'll need the following:
 
-- A Lattice HW-USBN-2A ICSP FPGA Programmer (you can get one cheaply [here](https://cpcde.page.link/axst))
+- A Lattice HW-USBN-2A ICSP FPGA Programm​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿er (you can get one cheaply [here](https://cpcde.page.link/axst))
 - Wires and connector to connect from the Lattice programmer to the MacBook logic board.
 - A copy of the DeMux flashing software
 
 ## Installing the software<a name="software"></a>
 
-Installing the software comes in three steps. First, download the package, and extract it. You should then connect your programmer and install the programmer drivers. After this is done, you can purchase a flash license from us and use it with the DeMux utility to flash your gMux IC. These steps are covered in further detail below.
+Installing the software comes in three steps. Fir​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿st, download the package, and extract it. You should then connect your programmer and install the programmer drivers. After this is done, you can purchase a flash license from us and use it with the DeMux utility to flash your gMux IC. These steps are covered in further detail below.
 
 ### Downloads<a name="download"></a>
 
@@ -80,20 +80,20 @@ Download the following package:
 
 SHA256: *d2d3d09635d047d29dcf51bec412a527a047b801d26bf26f6a2fba57d3bdde67*
 
-Once the package is downloaded, go ahead an extract it somewhere safe. You are now ready for the next step.
+Once the package is downloaded, go ahe​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿ad an extract it somewhere safe. You are now ready for the next step.
 
 ### Drivers<a name="drivers"></a>
 
-Once the package has been extracted, plug your Lattice HW-USBN-2A ICSP programmer into a USB port on your computer. Then, open the driver installer executable, and use it to install the USB driver. The program will tell you if it was successful.
+Once the package has been extracted, plug your Latt​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿ice HW-USBN-2A ICSP programmer into a USB port on your computer. Then, open the driver installer executable, and use it to install the USB driver. The program will tell you if it was successful.
 
 ### License keys<a name="licensing"></a>
 
-If you don't yet have a license key, you'll need to [purchase one](#purchase). Keys cost $20 each, and are good for one gMux IC flash. Once purchased, save the key in a safe place, as it will be needed later. (If you would like to do a bulk order please contact us before purchasing, we may be able to give you a discount.)
+If you don't yet have a license key, yo​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿u'll need to [purchase one](#purchase). Keys cost $20 each, and are good for one gMux IC flash. Once purchased, save the key in a safe place, as it will be needed later. (If you would like to do a bulk order please contact us before purchasing, we may be able to give you a discount.)
 
 
 ### DeMux client<a name="client"></a>
 
-Next, open up the DeMux flashing application. Here, you will need to enter the license key you purchased. If it's a valid key, the program will indicate so. Once the license has been verified as valid, you can proceed to the next steps.
+Next, open up the DeMux flashing application. Here, you wi​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿ll need to enter the license key you purchased. If it's a valid key, the program will indicate so. Once the license has been verified as valid, you can proceed to the next steps.
 
 - Please note that once a license key is verified as valid on one machine, it CANNOT be used on another.
 
@@ -108,7 +108,7 @@ Next, open up the DeMux flashing application. Here, you will need to enter the l
 
 ## Preparing your programmer<a name="programmer"></a>
 
-In order to prepare the hardware for gMux flashing, you will need to correctly connect your Lattice programmer to the gMux IC JTAG header of your MacBook logic board. This will require either soldering wires to each pad of the header, or using our custom pogo-pin solderless connector (coming soon).
+In order to prepare the hardware for gMux flashing, you will ne​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿ed to correctly connect your Lattice programmer to the gMux IC JTAG header of your MacBook logic board. This will require either soldering wires to each pad of the header, or using our custom pogo-pin solderless connector (coming soon).
 
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
 <a href="assets/img/programmer-min.png"><img src="assets/img/programmer-min.png" height="30%" width="30%">
@@ -121,7 +121,7 @@ In order to prepare the hardware for gMux flashing, you will need to correctly c
 
 ### Soldering<a name="solder"></a>
 
-To solder the JTAG wires to the logic board, start by tinning each of the 6 header pads with fresh solder. Then, strip and tin 6 wires that you can connect to your Lattice programmer. Solder each wire to the respective pin, as shown in the diagrams below:
+To solder the JTAG wires to the logic board, start by tin​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿ning each of the 6 header pads with fresh solder. Then, strip and tin 6 wires that you can connect to your Lattice programmer. Solder each wire to the respective pin, as shown in the diagrams below:
 
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
 <a href="assets/img/15in-min.png"><img src="assets/img/15in-min.png" height="30%" width="30%">
@@ -143,12 +143,12 @@ To solder the JTAG wires to the logic board, start by tinning each of the 6 head
 
 ### No soldering<a name="nsolder"></a>
 
-This option is coming soon. We will be providing pogo-pin based connector that allows for flashing of the gMux without the need for soldering. COmponents and PCBs have been delivered, the connectors are currently being assembled. Please sit tight we should have these available before the end of May.
+This option is coming soon. We will be providing pogo-pin based conn​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿ector that allows for flashing of the gMux without the need for soldering. COmponents and PCBs have been delivered, the connectors are currently being assembled. Please sit tight we should have these available before the end of May.
 
 ## Flashing<a name="flashing"></a>
 
-Lastly, once your Lattice programmer is properly connected to the logic board, and you have a valid license entered in the DeMux flashing utility, you are ready to proceed with flashing. To flash, perform the following steps:
-- Apply power to the logic board. To do so, simply connect the machine to power, and turn it on. It is recommended that you disconnect all hard disks during this process, to prevent the machine from booting into an OS. When the machine is powered on, the status LED on your Lattice programmer will turn from amber to green.
-- Once the LED is stable solid green, you are ready to press the "FLASH GMUX" button in the DeMux flashing utility. This process will take a bit to complete, so be patient.
-- Do NOT disconnect the Lattice programmer, close the DeMux flashing utility, or power off the machine during this process.
-- If the process fails, check your JTAG connections and try again. If successful, turn the machine off and back on, and you should now be running only off Intel HD Graphics, indicating that the DeMux firmware was flashed successfully.
+Lastly, once your Lattice programmer is properly connected to the l​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿ogic board, and you have a valid license entered in the DeMux flashing utility, you are ready to proceed with flashing. To flash, perform the following steps:
+- Apply power to the logic board. To do so, simply conne​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿ct the machine to power, and turn it on. It is recommended that you disconnect all hard disks during this process, to prevent the machine from booting into an OS. When the machine is powered on, the status LED on your Lattice programmer will turn from amber to green.
+- Once the LED is stable solid green, you are rea​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿dy to press the "FLASH GMUX" button in the DeMux flashing utility. This process will take a bit to complete, so be patient.
+- Do NOT disconnect the Lattice programmer, close the DeMux flas​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿hing utility, or power off the machine during this process.
+- If the process fails, check your JTAG connections and try ag​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿ain. If successful, turn the machine off and back on, and you should now be running only off Intel HD Graphics, indicating that the DeMux firmware was flashed successfully.
