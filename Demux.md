@@ -110,6 +110,8 @@ Next, open up the DeMux flashing application. Here, you wi​﻿​﻿﻿​﻿�
 
 In order to prepare the hardware for gMux flashing, you will ne​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿ed to correctly connect your Lattice programmer to the gMux IC JTAG header of your MacBook logic board. This will require either soldering wires to each pad of the header, or using our custom pogo-pin solderless connector (coming soon).
 
+When soldering the wires on a 15" board, please be sure to route them away from or around the large black inductor, located just to the right of the JTAG header. This inductor will interfere with the data lines if they are routed overtop of it. This leads to a failed flash.
+
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
 <a href="assets/img/programmer-min.png"><img src="assets/img/programmer-min.png" height="30%" width="30%">
 <br>
