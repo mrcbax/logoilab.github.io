@@ -33,9 +33,9 @@ If you have already got everything set up, you can <button data-selly-product="d
 
 Questions, comments, and concerns can b​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿e forwarded to the [DosLab Electronics email](mailto:doslabelectronics@gmail.com)
 
-### Important note
+### The 17" issue has been resolved and is in use by the client thanks to help from the community. If you used DeMux on a 17" machine and got a blue tinged screen please send us a picture and we will give you a new license key to reflash for free.
 
-Based on some testing and feedback from users, it has become appar​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿ent that there is a slight issue with the firmware affecting some 17" machines. On these systems, when applied, you will notice a slight blue tinge to the image, but the system will work perfectly fine otherwise. We are actively working on fixing this issue, but in the meantime it is recommended to stick to using this on 15" machines only, which do not have this issue.
+## Important notes
 
 If you are getting errors saying a DLL is missing please install the following Microsoft Redistributable:
 
