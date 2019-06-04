@@ -43,7 +43,9 @@ If you are getting errors saying a DLL is missing please install the following M
 
 Please make sure you are installing the 64-bit ve​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿rsion by selecting it in the menu that comes up when you click "Download".
 
+DisplayPort is a functionality of the dedicated GPU only, disabling the dedicated GPU will also disable the DisplayPort.
 
+Backlight brightness is currently not supported by Demux. We will be releasing a software fix for this at a later date.
 
 ## Table of contents
 
