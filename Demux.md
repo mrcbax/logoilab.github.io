@@ -125,6 +125,8 @@ When soldering the wires on a 15" board, please be sure to route them away from 
 
 ### Soldering<a name="solder"></a>
 
+#### Important note: Only use a temperature controlled soldering iron or you WILL remove pads which are required for the flash to work. Most of the pads are ONLY available in this ONE place. The loss of a pad will PERMANENTLY ruin your ability repair the board.
+
 To solder the JTAG wires to the logic board, start by tin​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿ning each of the 6 header pads with fresh solder. Then, strip and tin 6 wires that you can connect to your Lattice programmer. Solder each wire to the respective pin, as shown in the diagrams below:
 
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center;">
@@ -145,7 +147,13 @@ To solder the JTAG wires to the logic board, start by tin​﻿​﻿﻿​﻿�
 
 <br>
 
+There is now a video detailing these steps available:
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/lJUyOysbl08" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
 ### No soldering<a name="nsolder"></a>
+
+#### We have discovered another lead on this solution and are investigating.
 
 This option is coming soon. We will be providing pogo-pin based conn​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿ector that allows for flashing of the gMux without the need for soldering. We are experiencing some difficulties with tolerances in production of the connectors. Please allow us some more time to get things ready.
 
