@@ -37,6 +37,8 @@ Questions, comments, and concerns can b​﻿​﻿﻿​﻿﻿﻿​​​​�
 
 ## Important notes
 
+### There has been an update to the flashing tool, please update as soon as possible.
+
 If you are getting errors saying a DLL is missing please install the following Microsoft Redistributable:
 
 [Microsoft Visual C++ 2012 Rev4](https://www.microsoft.com/en-us/download/details.aspx?id=30679)
@@ -80,7 +82,7 @@ Download the following package:
 
 [Windows 64-bit](https://cpcde.page.link/Aj4R) PGP signature: [here](https://computeco.de/well-known/demux.zip.sig) [![PGP 0xDEBECAEE](https://peegeepee.com/badge/orange/DEBECAEE.svg)](https://peegeepee.com/DEBECAEE)
 
-SHA256: *d2d3d09635d047d29dcf51bec412a527a047b801d26bf26f6a2fba57d3bdde67*
+SHA256: *2fa7064168d9aebb9eb169e4d0818705d3b645ae8c04df15b7414e17a1f367fe*
 
 Once the package is downloaded, go ahe​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿ad an extract it somewhere safe. You are now ready for the next step.
 
