@@ -44,7 +44,7 @@ DyingLight is a simple USB v1.1 device that is solde​﻿​﻿﻿​﻿﻿﻿�
 
 ### <u>Warning: When following the install steps below please be ​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿sure to use insulated wire and pay attention to all steps of the process. Skipping a step or skimping on insulation like conformal coating or electrical tape wrappings may result in shorts on the board causing permanent damage to your system.</u>
 
-You can purchase your own module from EBay <strong>[HERE](https://cpcde.page.link/jp5F)<strong><a name="buy"></a> DyingLight chips are available.
+After a short break we're selling more boards. You can purchase your own module from EBay <strong>[HERE](https://www.ebay.com/itm/293243715431)<strong><a name="buy"></a> DyingLight chips are available.
 
 **There is a waitlist here if the EBay listing is sold out:** [Google Form](https://cpcde.page.link/MhtA)
 
