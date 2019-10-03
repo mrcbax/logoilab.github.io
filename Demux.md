@@ -29,6 +29,8 @@ window.onload = onload;
 
 DosLab Electronics is p​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿roud to announce that DeMux is ready for release. Below, you will find details on how to use it to flash the gMux IC on your MacBook Pro logic board.
 
+## Please read this page in its entirety before purchasing to understand what is required.
+
 # We are now accepting mail-ins! The base rate is $60+SH for a flash. Only $40+SH if you already bought a key. Please email us at doslabelectronics@gmail.com if you would like to do a mail-in.
 
 If you have already got everything set up, you can <button data-selly-product="d97a35a0" onclick="ga('send', 'event', 'purchases', 'initiate_buy', 'demux', 0)">Purchase A License Key</button><a name="purchase"></a> (If you would like to do a bulk order please contact us before purchasing, we may be able to give you a discount.)
