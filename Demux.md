@@ -157,9 +157,11 @@ There is now a video detailing these steps available:
 
 ### No soldering<a name="nsolder"></a>
 
-#### We have discovered another lead on this solution and are investigating.
+#### We are selling the adapter in limited quantities as a pre-release to high volume customers only. You must meet the following requirements to be able to purchase:
 
-This option is coming soon. We will be providing pogo-pin based conn​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿ector that allows for flashing of the gMux without the need for soldering. We are experiencing some difficulties with tolerances in production of the connectors. Please allow us some more time to get things ready.
+- Flash a minimum of 25 machines a month.
+- Are a repair shop of some kind.
+- Will continue to have a use for the adapter after its initial use.
 
 ## Flashing<a name="flashing"></a>
 
