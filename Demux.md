@@ -37,7 +37,7 @@ Questions, comments, and concerns can b​﻿​﻿﻿​﻿﻿﻿​​​​�
 
 ## Important notes
 
-### There has been an update to the flashing tool, please update as soon as possible.
+### For those with repeated failed flashes. We have determined the cause is noise on the `TCK` line. This can be fixed by adding a 10pF capacitor between it and ground. If you do not have a 10pF capacitor on hand we've seen success with capacitors ranging from 7pF to 17pF.
 
 If you are getting errors saying a DLL is missing please install the following Microsoft Redistributable:
 
