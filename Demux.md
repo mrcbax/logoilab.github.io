@@ -163,6 +163,8 @@ There is now a video detailing these steps available:
 - Are a repair shop of some kind.
 - Will continue to have a use for the adapter after its initial use.
 
+No other customers will be considered at this time.
+
 ## Flashing<a name="flashing"></a>
 
 Lastly, once your Lattice programmer is properly connected to the l​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿​﻿﻿﻿﻿​﻿﻿﻿​﻿﻿​​﻿​﻿﻿​​﻿ogic board, and you have a valid license entered in the DeMux flashing utility, you are ready to proceed with flashing. To flash, perform the following steps:
