@@ -14,9 +14,9 @@ This project was conceived to drastically reduce the amount of time and skill ne
 
 If you would like you can [DONATE](https://cpcde.page.link/FJXh) to the project. This will help bring production cost down.
 
-~~You can buy your own MuxHat here: [EBay Link](https://cpcde.page.link/17gV) MuxHats are now available for all to purchase.
+~~You can buy your own MuxHat here: [EBay Link](https://cpcde.page.link/17gV) MuxHats are now available for all to purchase.~~
 
-**There is a waitlist here if the listing is sold out:** [Google Form](about:blank)~~
+~~**There is a waitlist here if the listing is sold out:** [Google Form](about:blank)~~
 
 The current issue regarding the LVDS specification has been resolved. The latest version being sold now adheres to the specification.
 
