@@ -8,13 +8,15 @@ tags: ["MacBook", "Mod", "gMux", "OS X", "Graphics"]
 
 # MuxHat: Drop-in PCB to bypass the gMux IC on a 2011 15" or 17" MacBook Pro logic board.
 
+# This project is no longer maintained. It's replacement is a [much better solution.](https://computeco.de/Demux.html)
+
 This project was conceived to drastically reduce the amount of time and skill needed to perform a permanent hardware dedicated GPU bypass on a 20​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​﻿​​﻿​﻿﻿﻿﻿​﻿​﻿​​﻿​﻿﻿﻿​​​﻿​﻿​﻿​​11 15" or 17" MacBook Pro, that has had its dedicated GPU fail. This board takes a process that normally takes 2-3 hours to perform, and requires precision soldering equipment with a microscope, down to about 15-20 minutes, with a relatively easy process. This guide will explain all the steps needed to install the MuxHat board, and get your system to work 100% reliably run​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿﻿​﻿​​﻿​﻿﻿﻿﻿​﻿​﻿​​﻿​﻿﻿﻿​​​﻿​﻿​﻿​​ning off the integrated graphics only. *(For the old gMux IC bypass instructions visit the [forum post](https://cpcde.page.link/isR1))*
 
 If you would like you can [DONATE](https://cpcde.page.link/FJXh) to the project. This will help bring production cost down.
 
-You can buy your own MuxHat here: [EBay Link](https://cpcde.page.link/17gV) MuxHats are now available for all to purchase.
+~~You can buy your own MuxHat here: [EBay Link](https://cpcde.page.link/17gV) MuxHats are now available for all to purchase.
 
-**There is a waitlist here if the listing is sold out:** [Google Form](https://cpcde.page.link/NYXZ)
+**There is a waitlist here if the listing is sold out:** [Google Form](about:blank)~~
 
 The current issue regarding the LVDS specification has been resolved. The latest version being sold now adheres to the specification.
 

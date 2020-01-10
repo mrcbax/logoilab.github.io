@@ -31,7 +31,7 @@ DosLab Electronics is p​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿
 
 ## Please read this page in its entirety before purchasing to understand what is required.
 
-# ~~We are now accepting mail-ins!~~ Mail-ins are on hold until January 1st 2020. If you have not already contacted us for a mail-in or you believe your mail-in will not arrive to Virginia, US by December 1st please hold off on shipping to us until January 1st. We apologize for the inconvenience. The base rate is $60+SH for a flash. Only $40+SH if you already bought a key. Please email us at doslabelectronics@gmail.com if you would like to do a mail-in.
+# We are accepting mail-ins! The base rate is $60+SH for a flash. Only $40+SH if you already bought a key. Please email us at doslabelectronics@gmail.com if you would like to do a mail-in.
 
 If you have already got everything set up, you can <button data-selly-product="d97a35a0" onclick="ga('send', 'event', 'purchases', 'initiate_buy', 'demux', 0)">Purchase A License Key</button><a name="purchase"></a> (If you would like to do a bulk order please contact us before purchasing, we may be able to give you a discount.)
 
