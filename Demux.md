@@ -39,7 +39,9 @@ Questions, comments, and concerns can b​﻿​﻿﻿​﻿﻿﻿​​​​�
 
 ## Important notes
 
-### For those with repeated failed flashes. We have determined the cause to be noise on the `TCK` line. This can be fixed by adding a 10pF capacitor between `TCK` and ground(`GND`). If you do not have a 10pF capacitor on hand we've seen success with capacitors ranging from 100pF to 130pF.
+### For those with repeated failed flashes. We have determined the cause to be noise on the `TCK` line. This can be fixed by adding a 100pF capacitor between `TCK` and ground(`GND`).
+
+### If the above fix still isn't working for you, you can temporarily remove `L2406` before flashing. Make sure to solder it back on when you are done flashing.
 
 If you are getting errors saying a DLL is missing please install the following Microsoft Redistributable:
 
