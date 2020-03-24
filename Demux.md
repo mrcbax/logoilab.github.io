@@ -5,7 +5,7 @@ author: Chad Baxter
 date: 2018-09-17
 tags: ["MacBook", "dGPU", "Hardware", "Mod", "gMux", "os x", "Graphics"]
 ---
-
+<meta http-equiv="refresh" content="0; url=https://doslabelectronics.com/Demux.html" />
 # [An important update regarding mail-ins and NCOVID-19](https://doslabelectronics.com/announcements.html)
 
 # DeMux: MuxHat in software form
