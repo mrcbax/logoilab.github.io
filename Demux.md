@@ -6,6 +6,8 @@ date: 2018-09-17
 tags: ["MacBook", "dGPU", "Hardware", "Mod", "gMux", "os x", "Graphics"]
 ---
 
+# [An important update regarding mail-ins and NCOVID-19](https://doslabelectronics.com/announcements.html)
+
 # DeMux: MuxHat in software form
 
 <script src="https://embed.selly.gg"></script>
