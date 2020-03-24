@@ -5,7 +5,7 @@ author: Chad Baxter
 date: 2018-09-24
 tags: ["MacBook", "Brightness", "dGPU", "Hardware", "Mod", "gMux", "os x", "ATTiny85", "Graphics"]
 ---
-
+<meta http-equiv="refresh" content="0; url=https://doslabelectronics.com/DyingLight.html" />
 # DyingLight: Software and Hardware to Bring Back Brightness Functionality of MacBooks.
 
 ## Introdu​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿﻿​﻿﻿﻿﻿﻿​﻿﻿​​​​​﻿​​﻿​​﻿​﻿﻿﻿﻿﻿ction
