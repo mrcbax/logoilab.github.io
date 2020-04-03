@@ -18,6 +18,8 @@ Posts
 <strong> _2030-04-03_ [An Analysis of the Zoom Video Conferencing Client for Linux](2020-04-03_1.html)</strong>
 ---
 
+A shallow deep-dive into the Zoom client for Linux in an attempt to find some vulnerabilities.
+
 <hr>
 
 <strong> _2019-04-17_ [ DeMux: MuxHat in software form](Demux.html)</strong>
