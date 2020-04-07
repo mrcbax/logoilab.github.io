@@ -7,7 +7,7 @@ author: Chad Baxter
 Welcome to ComputeCode
 ===
 
-A blog about electronics engineering, computer security, and other ideas. You can read the most recent posts below.
+A b​​﻿​​​﻿​﻿﻿​​﻿﻿​﻿​﻿​​​﻿﻿﻿​﻿﻿​﻿﻿​​﻿﻿﻿﻿﻿﻿﻿﻿﻿​​​﻿﻿﻿​​​﻿﻿​﻿﻿​​﻿​​​﻿log about electronics engineering, computer security, and other ideas. You can read the most recent posts below.
 ---
 
 Posts
