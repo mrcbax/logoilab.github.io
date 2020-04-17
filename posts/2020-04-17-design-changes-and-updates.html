@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="keywords" content="">
-    <meta name="description" content="">
+    <meta name="description" content="An overview of what has been done and what has changed.">
     <meta name="copyright"content="Chad Baxter">
     <meta name="language" content="EN">
     <meta name="robots" content="index,follow" >
@@ -61,91 +61,29 @@
         <div class="column col-9">
           <div class="card">
             <div class="post-content">
-              <div class="card-title h1">Posts</div>
+              <div class="card-title h1">Design Changes and Updates</div>
               <div class="card-body">
                 <a class="spacebar">​​﻿​​﻿﻿﻿​﻿​​﻿​﻿﻿﻿​​﻿​﻿​﻿​​﻿﻿​​﻿﻿﻿﻿﻿​﻿﻿﻿﻿﻿​​﻿​﻿﻿​​﻿﻿﻿​﻿﻿​﻿​﻿﻿﻿</a>
-                
-<div class="card-header">
-<div class="card-title h4"><a href="posts/2020-04-17-design-changes-and-updates.html">Design Changes and Updates</a></div>
-<div class="card-subtitle text-gray"></div>
-</div>
-<div class="card-body">
-An overview of what has been done and what has changed.
-</div>
-<hr>
-
-<div class="card-header">
-<div class="card-title h4"><a href="posts/2020-04-03_1.html">An Analysis of the Zoom Video Conferencing Client for Linux</a></div>
-<div class="card-subtitle text-gray"></div>
-</div>
-<div class="card-body">
-A shallow deep-dive into the Zoom client for Linux in an attempt to find some vulnerabilities.
-</div>
-<hr>
-
-<div class="card-header">
-<div class="card-title h4"><a href="posts/2019-06-16_1.html">ActiveAntiPhish - Protecting Stolen Credentials Using Saturation</a></div>
-<div class="card-subtitle text-gray"></div>
-</div>
-<div class="card-body">
-Phishkits. What they are, where to find them, and how to defend against them. Plus a little bit of knowledge found on the underground.
-</div>
-<hr>
-
-<div class="card-header">
-<div class="card-title h4"><a href="posts/2019-04-17_1.html">DeMux - MuxHat in software form</a></div>
-<div class="card-subtitle text-gray"></div>
-</div>
-<div class="card-body">
-Installation and usage instructions for the DeMux flashing utility.
-</div>
-<hr>
-
-<div class="card-header">
-<div class="card-title h4"><a href="posts/2019-04-07_1.html">Commenteer - Code Commenting Made Easy</a></div>
-<div class="card-subtitle text-gray"></div>
-</div>
-<div class="card-body">
-A new project designed to make comment header addition to existing source code a bit easier.
-</div>
-<hr>
-
-<div class="card-header">
-<div class="card-title h4"><a href="posts/2019-04-03_1.html">Upcoming Firmware Flasher for 2011 MacBook gMux</a></div>
-<div class="card-subtitle text-gray"></div>
-</div>
-<div class="card-body">
-An announcement regarding a recent pre-release video as well as a scam alert for those seeking repairs.
-</div>
-<hr>
-
-<div class="card-header">
-<div class="card-title h4"><a href="posts/2018-09-24_1.html">DyingLight - Software and Hardware to Bring Back Brightness Functionality of MacBooks.</a></div>
-<div class="card-subtitle text-gray"></div>
-</div>
-<div class="card-body">
-Backlight control for MacBooks with dead dedicated graphics chips. Allowing for seamless control of the backlight brighness via specially designed drivers and hardware.
-</div>
-<hr>
-
-<div class="card-header">
-<div class="card-title h4"><a href="posts/2018-07-29_1.html">Local Privilege Escalation in Certiport Testing Software</a></div>
-<div class="card-subtitle text-gray"></div>
-</div>
-<div class="card-body">
-When vendors ignore least privilege guidelines you end up with local admin in a secure testing facility. The story of Pearson and their CertiPort software.
-</div>
-<hr>
-
-<div class="card-header">
-<div class="card-title h4"><a href="posts/2018-06-09_1.html">Welcome to the blog</a></div>
-<div class="card-subtitle text-gray"></div>
-</div>
-<div class="card-body">
-The first blog post.
-</div>
-<hr>
-
+                <p>I am de-Googling a lot of my own stuff and my projects as a side effect. I though I would also give this site some love while I was at it. The page you are currently reading is composed of HTML &amp; CSS.</p>
+<p><strong>That's it.</strong></p>
+<p>Of course there are fonts and SVGs hanging around and the required pictures for certain posts but there is <strong>no javascript</strong>. Bootstrap is gone, Google Analytics is gone, Selly is gone.</p>
+<h3>The current stack</h3>
+<p>I spent hours playing with minimal CSS frameworks and eventually just chose the one with the most recent updates and most features. For me that was <a href="https://picturepan2.github.io/spectre/">spectre.css</a>. With spectre I am also using <a href="https://daneden.github.io/animate.css/">Animate.css</a>, although it currently isn't in use at this point I'm a big fan of Dan Eden's projects.</p>
+<p>All of this is composed by the <a href="https://cobalt-org.github.io/">Cobalt</a> static site generator which is written in <a href="https://rust-lang.org">Rust</a> and uses <a href="https://shopify.github.io/liquid/">Liquid</a> templating. It is hosted on GitHub pages for simplicity but may be moving soon to baremetal with Cloudflare integration.</p>
+<h3>What has(n't) changed</h3>
+<ul>
+<li>The style (duh).</li>
+<li>DosLab electronics related content is now hosted at <a href="https://doslabelectronics.com">doslabelectronics.com</a>. The changes made on the DosLab side were immense for this and the web server itself is fully custom, no off the shelf anything. This itself warrants a full blog post.</li>
+<li>Legacy pages (ones linked to the most by other sites) remain in place at their original locations. This includes CVE write-ups and other <em>atomic</em> links.</li>
+</ul>
+<h3>The fun stuff</h3>
+<ul>
+<li><a href="https://github.com/LogoiLab/Spacebar">Project Spacebar</a> is in use on this site and works much better after the recent overhaul.</li>
+<li>The title font is <h1 class="title"><a href="http://sansforgetica.rmit/">Sans Forgettica</a></h1>. I did this because it looks cool and is funny (fight me).</li>
+<li><a href="https://wigle.net">Wigle.net</a> stats are at the bottom. Race me to the top of the leaderboard.</li>
+<li><a href="https://abuseipdb.com">Abuse IPDB</a> stats are also at the bottom. Triggering <a href="http://fail2ban.org">Fail2ban</a> on DosLab servers will get you listed here.</li>
+<li>Keybase link is at the top for contacting me any way you see fit. </li>
+</ul>
 
                 <a class="spacebar">​​﻿​​﻿﻿﻿​﻿​​﻿​﻿﻿﻿​​﻿​﻿​﻿​​﻿﻿​​﻿﻿﻿﻿﻿​﻿﻿﻿﻿﻿​​﻿​﻿﻿​​﻿﻿﻿​﻿﻿​﻿​﻿﻿﻿</a>
               </div>
