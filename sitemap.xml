@@ -1,58 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://computeco.de/Demux.html</loc>
-    <lastmod>2019-06-12</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://computeco.de/posts/2020-04-03_1.html</loc>
+    <lastmod>2020-04-03T14:10:00+04:00</lastmod>
   </url>
   <url>
-    <loc>https://computeco.de/</loc>
-    <lastmod>2019-04-03</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://computeco.de/posts/2019-06-16_1.html</loc>
+    <lastmod>2019-06-16T14:10:00+04:00</lastmod>
   </url>
   <url>
-    <loc>https://computeco.de/2019-04-07_1.html</loc>
-    <lastmod>2019-04-07</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://computeco.de/posts/2019-04-17_1.html</loc>
+    <lastmod>2019-04-17T14:10:00+04:00</lastmod>
   </url>
   <url>
-    <loc>https://computeco.de/2019-04-03_1.html</loc>
-    <lastmod>2019-04-03</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://computeco.de/posts/2019-04-07_1.html</loc>
+    <lastmod>2019-04-07T14:10:00+04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://computeco.de/posts/2019-04-03_1.html</loc>
+    <lastmod>2019-04-03T14:10:00+04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://computeco.de/posts/2018-09-24_1.html</loc>
+    <lastmod>2018-09-24T14:10:00+04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://computeco.de/posts/2018-07-29_1.html</loc>
+    <lastmod>2018-07-29T14:10:00+04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://computeco.de/posts/2018-06-09_1.html</loc>
+    <lastmod>2018-06-09T14:10:00+04:00</lastmod>
   </url>
   <url>
     <loc>https://computeco.de/2018-07-29_1.html</loc>
-    <lastmod>2018-11-16</lastmod>
-    <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://computeco.de/2018-06-16_1.html</loc>
-    <lastmod>2018-11-16</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://computeco.de/2018-06-09_1.html</loc>
-    <lastmod>2018-11-16</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://computeco.de/Demux.html</loc>
   </url>
   <url>
     <loc>https://computeco.de/DyingLight.html</loc>
-    <lastmod>2019-01-30</lastmod>
-    <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://computeco.de/MuxHat.html</loc>
-    <lastmod>2019-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://computeco.de/assets/img/pcb-brd.svg</loc>
-    <lastmod>2018-11-16</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://computeco.de/2020-04-03_1.html</loc>
-    <lastmod>2020-04-03</lastmod>
-    <changefreq>hourly</changefreq>
+    <loc>https://computeco.de/index.html</loc>
+    <lastmod>2020-04-16T14:10:00+04:00</lastmod>
   </url>
 </urlset>
