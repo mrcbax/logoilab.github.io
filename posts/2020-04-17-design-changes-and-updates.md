@@ -25,6 +25,7 @@ All of this is composed by the [Cobalt](https://cobalt-org.github.io/) static si
 
 ### The fun stuff
 
+- [Project Spacebar](https://github.com/LogoiLab/Spacebar) is in use on this site and works much better after the recent overhaul.
 - The title font is <h1 class="title">[Sans Forgettica](http://sansforgetica.rmit/)</h1>. I did this because it looks cool and is funny (fight me).
 - [Wigle.net](https://wigle.net) stats are at the bottom. Race me to the top of the leaderboard.
 - [Abuse IPDB](https://abuseipdb.com) stats are also at the bottom. Triggering [Fail2ban](http://fail2ban.org) on DosLab servers will get you listed here.
