@@ -1,0 +1,17 @@
+---
+layout: default.liquid
+title: Posts
+published_date: 2020-04-16 14:10:00 +0400
+is_draft: false
+---
+
+{% for post in collections.posts.pages %}
+<div class="card-header">
+<div class="card-title h4"><a href="{{ post.permalink }}">{{ post.title }}</a></div>
+<div class="card-subtitle text-gray"></div>
+</div>
+<div class="card-body">
+{{ post.description }}
+</div>
+<hr>
+{% endfor %}
