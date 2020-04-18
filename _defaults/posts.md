@@ -1,11 +1,9 @@
 ---
 layout: default.liquid
 
-title: First Post
+title: _title here_
 is_draft: true
-description: desc
+description: _description here_
 ---
 
-# This is our first Post!
-
-Welcome to the first post ever on cobalt.rs!
+_content_

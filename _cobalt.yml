@@ -4,11 +4,12 @@ template_extensions:
   - md
   - liquid
 include_drafts: false
+destination: _site
 
 # Site options
 site:
   title: ComputeCode
-  description: ~
+  description: A blog about security, software, and hardware.
   base_url: https://computeco.de
   data: ~
   sitemap: sitemap.xml
