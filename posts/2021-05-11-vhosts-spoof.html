@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="">
-    <meta name="description" content="">
+    <meta name="description" content="What to do with that deanonymized IP of a CloudFlare protected server.">
     <meta name="copyright" content="Chad Baxter">
     <meta name="language" content="EN">
     <meta name="robots" content="index,follow" >
@@ -60,109 +60,50 @@
         <div class="column col-9">
           <div class="card">
             <div class="post-content">
-              <div class="card-title h1">Posts</div>
+              <div class="card-title h1">Spoofing Virtual Hosts for Fun and Profit</div>
               <div class="card-body">
                 <a class="spacebar">​​﻿​​﻿﻿﻿​﻿​​﻿​﻿﻿﻿​​﻿​﻿​﻿​​﻿﻿​​﻿﻿﻿﻿﻿​﻿﻿﻿﻿﻿​​﻿​﻿﻿​​﻿﻿﻿​﻿﻿​﻿​﻿﻿﻿</a>
-                
-<div class="card-header">
-<div class="card-title h4"><a href="posts/2021-05-11-vhosts-spoof.html">Spoofing Virtual Hosts for Fun and Profit</a></div>
-<div class="card-subtitle text-gray"></div>
-</div>
-<div class="card-body">
-What to do with that deanonymized IP of a CloudFlare protected server.
-</div>
-<hr>
-
-<div class="card-header">
-<div class="card-title h4"><a href="posts/2020-08-19_1.html">XGecu T56 Programmer Unboxing & Review</a></div>
-<div class="card-subtitle text-gray"></div>
-</div>
-<div class="card-body">
-An unboxing, review, and test of the XGecu T56 universal programmer.
-</div>
-<hr>
-
-<div class="card-header">
-<div class="card-title h4"><a href="posts/2020-04-17-design-changes-and-updates.html">Design Changes and Updates</a></div>
-<div class="card-subtitle text-gray"></div>
-</div>
-<div class="card-body">
-An overview of what has been done and what has changed.
-</div>
-<hr>
-
-<div class="card-header">
-<div class="card-title h4"><a href="posts/2020-04-03_1.html">An Analysis of the Zoom Video Conferencing Client for Linux</a></div>
-<div class="card-subtitle text-gray"></div>
-</div>
-<div class="card-body">
-A shallow deep-dive into the Zoom client for Linux in an attempt to find some vulnerabilities.
-</div>
-<hr>
-
-<div class="card-header">
-<div class="card-title h4"><a href="posts/2019-06-16_1.html">ActiveAntiPhish - Protecting Stolen Credentials Using Saturation</a></div>
-<div class="card-subtitle text-gray"></div>
-</div>
-<div class="card-body">
-Phishkits. What they are, where to find them, and how to defend against them. Plus a little bit of knowledge found on the underground.
-</div>
-<hr>
-
-<div class="card-header">
-<div class="card-title h4"><a href="posts/2019-04-17_1.html">DeMux - MuxHat in software form</a></div>
-<div class="card-subtitle text-gray"></div>
-</div>
-<div class="card-body">
-Installation and usage instructions for the DeMux flashing utility.
-</div>
-<hr>
-
-<div class="card-header">
-<div class="card-title h4"><a href="posts/2019-04-07_1.html">Commenteer - Code Commenting Made Easy</a></div>
-<div class="card-subtitle text-gray"></div>
-</div>
-<div class="card-body">
-A new project designed to make comment header addition to existing source code a bit easier.
-</div>
-<hr>
-
-<div class="card-header">
-<div class="card-title h4"><a href="posts/2019-04-03_1.html">Upcoming Firmware Flasher for 2011 MacBook gMux</a></div>
-<div class="card-subtitle text-gray"></div>
-</div>
-<div class="card-body">
-An announcement regarding a recent pre-release video as well as a scam alert for those seeking repairs.
-</div>
-<hr>
-
-<div class="card-header">
-<div class="card-title h4"><a href="posts/2018-09-24_1.html">DyingLight - Software and Hardware to Bring Back Brightness Functionality of MacBooks.</a></div>
-<div class="card-subtitle text-gray"></div>
-</div>
-<div class="card-body">
-Backlight control for MacBooks with dead dedicated graphics chips. Allowing for seamless control of the backlight brighness via specially designed drivers and hardware.
-</div>
-<hr>
-
-<div class="card-header">
-<div class="card-title h4"><a href="posts/2018-07-29_1.html">Local Privilege Escalation in Certiport Testing Software</a></div>
-<div class="card-subtitle text-gray"></div>
-</div>
-<div class="card-body">
-When vendors ignore least privilege guidelines you end up with local admin in a secure testing facility. The story of Pearson and their CertiPort software.
-</div>
-<hr>
-
-<div class="card-header">
-<div class="card-title h4"><a href="posts/2018-06-09_1.html">Welcome to the blog</a></div>
-<div class="card-subtitle text-gray"></div>
-</div>
-<div class="card-body">
-The first blog post.
-</div>
-<hr>
-
+                <h1>Spoofing Virtual Hosts for Fun and Profit</h1>
+<h2>Or: What to do with that deanonymized IP of a CloudFlare protected server.</h2>
+<h2>Introduction</h2>
+<p>CloudFlare is a security focused HTTP proxy. It protects the real IP address of a webserver by sitting between it and the outside world. When configured correctly an HTTP server behind CloudFlare should be inaccessible via any route other than CloudFlare.</p>
+<p>The most important part of utilizing CloudFlare is to ensure the direct IP address has never been associate with the domain you wish to protect. Often times CloudFlare is added after an attack, and pointed to the direct IP address which has been associated with the original domain for quite some time. A well known way of finding the direct IP of a CloudFlare protected site is to use historic DNS lookup services like <a href="https://securitytrails.com/dns-trails">DNSTrails</a>.</p>
+<p>The second most important part of this configuration is setting up virtual hosts and firewall rules to block direct IP access. Often times virtual hosts are created to handle this properly but firewall rules are too annoying or hard for server operators to implement properly. In this post we will utilize these two issues to bypass CloudFlare and connect to a CloudFlare protected HTTP server as if CloudFlare doesn't exist.</p>
+<h2>Getting Started</h2>
+<p>You will need two basic bits of data to accomplish this task.</p>
+<ol>
+<li>The direct IP of the HTTP server (obtained via historic records or other means)</li>
+<li>The domain associated with this IP address.</li>
+</ol>
+<h2>The Basics</h2>
+<p>This is a simple attack requiring a single HTTP header spoof. Your system must be set up to pass the correct <code>Host</code> HTTP header to trigger the correct match in either the Apache or NGINX target server's virtual host routes.</p>
+<p>Let's say you have the IP address <code>123.123.123.0</code> and the domain <code>somedomain.tld</code> the target server has a virtual host set up for both the IP address and the domain name. The domain name routes to the normal page that is behind CloudFlare, the direct IP routes to a blank page or some other page. Attempting to access the IP address gives you the blank page when you want the page served for the domain name.</p>
+<p>In order to trick Apache or NGINX to display the protected page simply set the <code>Host</code> header on your request like so:</p>
+<pre style="background-color:#3b3228;">
+<span style="color:#d0c8c6;">Host: somedomain.tld
+</span></pre>
+<h2>In Practice</h2>
+<p>Here are some examples of the simplest way to do this with our system or tool of choice.</p>
+<h3>Linux</h3>
+<p>Edit <code>/etc/hosts</code> and add the domain and IP address like so (edit to match your use case):</p>
+<pre style="background-color:#3b3228;">
+<span style="color:#d0c8c6;"># /etc/hosts
+</span><span style="color:#d0c8c6;">123.123.123.0 somedomain.tld
+</span></pre>
+<p>After a reboot any request to the specified domain will be resolved to the listed IP and contain the proper <code>Host</code> header.</p>
+<h3>Windows</h3>
+<p>Open <code>C:\Windows\System32\drivers\etc\hosts</code> as Administrator and add the following line (edit to match your use case):</p>
+<pre style="background-color:#3b3228;">
+<span style="color:#d0c8c6;">123.123.123.0 somedomain.tld
+</span></pre>
+<p>After a reboot any request to the specified domain will be resolved to the listed IP and contain the proper <code>Host</code> header.</p>
+<h3>curl</h3>
+<p>Simply start your curl command like this (edit to match your use case):</p>
+<pre style="background-color:#3b3228;">
+<span style="color:#d0c8c6;">curl curl -H &quot;Host: somedomain.tld&quot; http://123.123.123.0/
+</span></pre>
+<h2>Conclusion</h2>
+<p>Once the <code>Host</code> header matches, and if firewall rules have not been configured properly on the target, you should see the CloudFlare protected page in the response from your request. This time though, it was loaded directly, bypassing CloudFlare completely.</p>
 
                 <a class="spacebar">​​﻿​​﻿﻿﻿​﻿​​﻿​﻿﻿﻿​​﻿​﻿​﻿​​﻿﻿​​﻿﻿﻿﻿﻿​﻿﻿﻿﻿﻿​​﻿​﻿﻿​​﻿﻿﻿​﻿﻿​﻿​﻿﻿﻿</a>
               </div>
@@ -187,7 +128,7 @@ The first blog post.
     <input type="hidden" class="track"></input>
     <style>
       input.track {
-          content: url('https://www.google-analytics.com/collect?v=1&tid=UA-66099830-2&t=pageview&dp=%2Findex.html&dt=%22Posts%22');
+          content: url('https://www.google-analytics.com/collect?v=1&tid=UA-66099830-2&t=pageview&dp=%2Fposts/2021-05-11-vhosts-spoof.html&dt=%22Spoofing Virtual Hosts for Fun and Profit%22');
       }
     </style>
   </body>

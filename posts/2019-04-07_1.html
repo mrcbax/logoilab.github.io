@@ -68,35 +68,35 @@
 <p>Recently I released a new bit of rust code: <a href="https://crates.io/crates/commenteer">Commenteer<img src="https://img.shields.io/crates/v/commenteer.svg" alt="crates.io version" /></a>. This software was designed with one simple thing in mind. To add comment headers to large code-bases without the need to manually open every fi​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​​​﻿​​​﻿​​﻿﻿﻿​﻿​﻿﻿﻿​​﻿​​​﻿​﻿​﻿le in a text editor. Most &quot;heavy&quot; editors these days can do this for you but ar​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​​​﻿​​​﻿​​﻿﻿﻿​﻿​﻿﻿﻿​​﻿​​​﻿​﻿​﻿e a bear to use. Eclipse, any of the JetBrains IDEs, and Emacs all support this. You can even achieve this in Vim. But for me this seemed over-complicated for the task.</p>
 <p>Commenteer is a simple command line utility that ta​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​​​﻿​​​﻿​​﻿﻿﻿​﻿​﻿﻿﻿​​﻿​​​﻿​﻿​﻿kes a few simple arguments and automates the whole process. Here is the help info:</p>
 <pre style="background-color:#3b3228;">
-<span style="background-color:#3b3228;color:#d0c8c6;">Commenteer 0.2.1
-Chad Baxter &lt;mistercbax@gmail.com&gt;
-Add comment headers to code.
-
-USAGE:
-    commenteer [FLAGS] [OPTIONS] --input &lt;input&gt;...
-
-FLAGS:
-    -h, --help       Prints help information
-    -r, --recurse    Add header to every text file in the specified path.
-    -V, --version    Prints version information
-    -v, --verbose    Show verbose information about the operation
-
-OPTIONS:
-    -c, --comment-file &lt;comment-file&gt;    A path to a file containing the header you would like to add.
-    -t, --comment-text &lt;comment-text&gt;    A string containing the header you would like to add. Can contain control
-                                         characters that use backslashes(\n, \t etc).
-    -n, --ignore &lt;ignore&gt;...             Paths to files you would like to exclude from being modified
-    -i, --input &lt;input&gt;...               List of paths or files to add a header to.
+<span style="color:#d0c8c6;">Commenteer 0.2.1
+</span><span style="color:#d0c8c6;">Chad Baxter &lt;mistercbax@gmail.com&gt;
+</span><span style="color:#d0c8c6;">Add comment headers to code.
+</span><span style="color:#d0c8c6;">
+</span><span style="color:#d0c8c6;">USAGE:
+</span><span style="color:#d0c8c6;">    commenteer [FLAGS] [OPTIONS] --input &lt;input&gt;...
+</span><span style="color:#d0c8c6;">
+</span><span style="color:#d0c8c6;">FLAGS:
+</span><span style="color:#d0c8c6;">    -h, --help       Prints help information
+</span><span style="color:#d0c8c6;">    -r, --recurse    Add header to every text file in the specified path.
+</span><span style="color:#d0c8c6;">    -V, --version    Prints version information
+</span><span style="color:#d0c8c6;">    -v, --verbose    Show verbose information about the operation
+</span><span style="color:#d0c8c6;">
+</span><span style="color:#d0c8c6;">OPTIONS:
+</span><span style="color:#d0c8c6;">    -c, --comment-file &lt;comment-file&gt;    A path to a file containing the header you would like to add.
+</span><span style="color:#d0c8c6;">    -t, --comment-text &lt;comment-text&gt;    A string containing the header you would like to add. Can contain control
+</span><span style="color:#d0c8c6;">                                         characters that use backslashes(\n, \t etc).
+</span><span style="color:#d0c8c6;">    -n, --ignore &lt;ignore&gt;...             Paths to files you would like to exclude from being modified
+</span><span style="color:#d0c8c6;">    -i, --input &lt;input&gt;...               List of paths or files to add a header to.
 </span></pre>
 <p>As you can see Commenteer supports rea​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​​​﻿​​​﻿​​﻿﻿﻿​﻿​﻿﻿﻿​​﻿​​​﻿​﻿​﻿ding a comment header from a file or accepting it from the command line. It supports recursive commenting of all code in a directory as well as ignoring specific files.</p>
 <p>an example command for reading from a f​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​​​﻿​​​﻿​​﻿﻿﻿​﻿​﻿﻿﻿​​﻿​​​﻿​﻿​﻿ile and applying changes recursively:</p>
 <p><code>comment.txt</code></p>
 <pre style="background-color:#3b3228;">
-<span style="background-color:#3b3228;color:#d0c8c6;">/*╭──────────────────────╮
-  │ Author: Chad Baxter  │
-  │ Date:                │
-  │ For:                 │
-  ╰──────────────────────╯*/
+<span style="color:#d0c8c6;">/*╭──────────────────────╮
+</span><span style="color:#d0c8c6;">  │ Author: Chad Baxter  │
+</span><span style="color:#d0c8c6;">  │ Date:                │
+</span><span style="color:#d0c8c6;">  │ For:                 │
+</span><span style="color:#d0c8c6;">  ╰──────────────────────╯*/
 </span></pre>
 <p><code>commenteer -r -c ../comment.txt -i ./</code></p>
 <p>An example command using an argument to accept the comment:</p>

