@@ -66,7 +66,7 @@
                 <h2>Or: What to do with that deanonymized IP of a CloudFlare protected server.</h2>
 <h2>Introduction</h2>
 <p>CloudFlare is a security focused HTTP proxy. It protects the real IP address of a webserver by sitting between it and the outside world. When configured correctly an HTTP server behind CloudFlare should be inaccessible via any route other than CloudFlare.</p>
-<p>The most important part of utilizing CloudFlare is to ensure the direct IP address has never been associate with the domain you wish to protect. Often times CloudFlare is added after an attack, and pointed to the direct IP address which has been associated with the original domain for quite some time. A well known way of finding the direct IP of a CloudFlare protected site is to use historic DNS lookup services like <a href="https://securitytrails.com/dns-trails">DNSTrails</a>.</p>
+<p>The most important part of utilizing CloudFlare is to ensure the direct IP address has never been associated with the domain you wish to protect. Often times CloudFlare is added after an attack, and pointed to the direct IP address which has been associated with the original domain for quite some time. A well known way of finding the direct IP of a CloudFlare protected site is to use historic DNS lookup services like <a href="https://securitytrails.com/dns-trails">DNSTrails</a>.</p>
 <p>The second most important part of this configuration is setting up virtual hosts and firewall rules to block direct IP access. Often times virtual hosts are created to handle this properly but firewall rules are too annoying or hard for server operators to implement properly. In this post we will utilize these two issues to bypass CloudFlare and connect to a CloudFlare protected HTTP server as if CloudFlare doesn't exist.</p>
 <h2>Getting Started</h2>
 <p>You will need two basic bits of data to accomplish this task.</p>
@@ -77,12 +77,12 @@
 <h2>The Basics</h2>
 <p>This is a simple attack requiring a single HTTP header spoof. Your system must be set up to pass the correct <code>Host</code> HTTP header to trigger the correct match in either the Apache or NGINX target server's virtual host routes.</p>
 <p>Let's say you have the IP address <code>123.123.123.0</code> and the domain <code>somedomain.tld</code> the target server has a virtual host set up for both the IP address and the domain name. The domain name routes to the normal page that is behind CloudFlare, the direct IP routes to a blank page or some other page. Attempting to access the IP address gives you the blank page when you want the page served for the domain name.</p>
-<p>In order to trick Apache or NGINX to display the protected page simply set the <code>Host</code> header on your request like so:</p>
+<p>In order to trick Apache or NGINX into displaying the protected page simply set the <code>Host</code> header on your request like so:</p>
 <pre style="background-color:#3b3228;">
 <span style="color:#d0c8c6;">Host: somedomain.tld
 </span></pre>
 <h2>In Practice</h2>
-<p>Here are some examples of the simplest way to do this with our system or tool of choice.</p>
+<p>Here are some examples of the simplest way to do this with your system or tool of choice.</p>
 <h3>Linux</h3>
 <p>Edit <code>/etc/hosts</code> and add the domain and IP address like so (edit to match your use case):</p>
 <pre style="background-color:#3b3228;">
