@@ -6,7 +6,6 @@ layout: default.liquid
 is_draft: false
 
 ---
-# Spoofing Virtual Hosts for Fun and Profit
 ## Or: What to do with that deanonymized IP of a CloudFlare protected server.
 
 ## Introduction
