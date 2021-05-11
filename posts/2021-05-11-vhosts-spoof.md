@@ -12,7 +12,7 @@ is_draft: false
 
 CloudFlare is a security focused HTTP proxy. It protects the real IP address of a webserver by sitting between it and the outside world. When configured correctly an HTTP server behind CloudFlare should be inaccessible via any route other than CloudFlare.
 
-The most important part of utilizing CloudFlare is to ensure the direct IP address has never been associate with the domain you wish to protect. Often times CloudFlare is added after an attack, and pointed to the direct IP address which has been associated with the original domain for quite some time. A well known way of finding the direct IP of a CloudFlare protected site is to use historic DNS lookup services like [DNSTrails](https://securitytrails.com/dns-trails).
+The most important part of utilizing CloudFlare is to ensure the direct IP address has never been associated with the domain you wish to protect. Often times CloudFlare is added after an attack, and pointed to the direct IP address which has been associated with the original domain for quite some time. A well known way of finding the direct IP of a CloudFlare protected site is to use historic DNS lookup services like [DNSTrails](https://securitytrails.com/dns-trails).
 
 The second most important part of this configuration is setting up virtual hosts and firewall rules to block direct IP access. Often times virtual hosts are created to handle this properly but firewall rules are too annoying or hard for server operators to implement properly. In this post we will utilize these two issues to bypass CloudFlare and connect to a CloudFlare protected HTTP server as if CloudFlare doesn't exist.
 
@@ -29,7 +29,7 @@ This is a simple attack requiring a single HTTP header spoof. Your system must b
 
 Let's say you have the IP address `123.123.123.0` and the domain `somedomain.tld` the target server has a virtual host set up for both the IP address and the domain name. The domain name routes to the normal page that is behind CloudFlare, the direct IP routes to a blank page or some other page. Attempting to access the IP address gives you the blank page when you want the page served for the domain name.
 
-In order to trick Apache or NGINX to display the protected page simply set the `Host` header on your request like so:
+In order to trick Apache or NGINX into displaying the protected page simply set the `Host` header on your request like so:
 
 ```
 Host: somedomain.tld
@@ -37,7 +37,7 @@ Host: somedomain.tld
 
 ## In Practice
 
-Here are some examples of the simplest way to do this with our system or tool of choice.
+Here are some examples of the simplest way to do this with your system or tool of choice.
 
 ### Linux
 
