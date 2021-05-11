@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="What to do with that deanonymized IP of a CloudFlare protected server.">
+    <meta name="copyright" content="Chad Baxter">
+    <meta name="language" content="EN">
+    <meta name="robots" content="index,follow" >
+    <meta name="designer" content="Chad Baxter">
+    <meta name="owner" content="Chad Baxter">
+    <meta name="url" content="https://computeco.de">
+    <meta name="identifier-URL" content="https://computeco.de">
+    <meta name="directory" content="submission">
+    <meta name="coverage" content="Worldwide">
+    <meta name="distribution" content="Global">
+    <meta name="rating" content="General">
+
+    <title>ComputeCode</title>
+
+    <link rel="stylesheet" href="/style/base.css">
+
+  </head>
+  <body>
+    <header class="navbar">
+      <section class="navbar-section">
+        <a href="/" class="navbar-brand mr-2"><h1 class="title">ComputeCode</h1></a>
+      </section>
+      <section class="navbar-section">
+        <a href="/" class="btn btn-link">Home</a>
+        <a href="https://keybase.io/mrcbax" class="btn btn-link">Keybase</a>
+        <a href="https://github.com/LogoiLab" class="btn btn-link">GitHub</a>
+         <a href="/rss.xml" class="btn"><?xml version="1.0" encoding="UTF-8"?>
+                    <svg height="1em" width="1em" style="fill: #dcdcdc;"><?xml version="1.0" encoding="iso-8859-1"?><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 448 448" style="enable-background:new 0 0 448 448;" xml:space="preserve"><g><g><circle cx="64" cy="384" r="64"/></g></g><g><g><path d="M0,149.344v85.344c117.632,0,213.344,95.68,213.344,213.312h85.312C298.656,283.328,164.672,149.344,0,149.344z"/></g></g><g><g><path d="M0,0v85.344C200,85.344,362.688,248,362.688,448H448C448,200.96,247.04,0,0,0z"/></g></g></svg>
+</svg>
+                </a>
+      </section>
+    </header>
+    <div class="container">
+      <div class="columns">
+        <div class="column col-3">
+          <div class="card">
+            <div class="post-content">
+              <div class="card-title h1">Links</div>
+              <div class="card-body">
+                <a class="spacebar">​​﻿​​﻿﻿﻿​﻿​​﻿​﻿﻿﻿​​﻿​﻿​﻿​​﻿﻿​​﻿﻿﻿﻿﻿​﻿﻿﻿﻿﻿​​﻿​﻿﻿​​﻿﻿﻿​﻿﻿​﻿​﻿﻿﻿</a>
+                <br>
+                <a href="https://peegeepee.com/B6E62A011FB6F1D7C80618DC51F5CC26A52396FC" class="card-title h5">PGP: 51F5 CC26 A523 96FC</a>
+                <br>
+                <a href="https://doslabelectronics.com" class="card-title h5">DosLab Electronics</a>
+                <br>
+                <a href="/assets/feedlist.opml" class="card-title h5">Security FeedList</a>
+                <br>
+                <a class="spacebar">​​﻿​​﻿﻿﻿​﻿​​﻿​﻿﻿﻿​​﻿​﻿​﻿​​﻿﻿​​﻿﻿﻿﻿﻿​﻿﻿﻿﻿﻿​​﻿​﻿﻿​​﻿﻿﻿​﻿﻿​﻿​﻿﻿﻿</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column col-9">
+          <div class="card">
+            <div class="post-content">
+              <div class="card-title h1">Spoofing Virtual Hosts for Fun and Profit</div>
+              <div class="card-body">
+                <a class="spacebar">​​﻿​​﻿﻿﻿​﻿​​﻿​﻿﻿﻿​​﻿​﻿​﻿​​﻿﻿​​﻿﻿﻿﻿﻿​﻿﻿﻿﻿﻿​​﻿​﻿﻿​​﻿﻿﻿​﻿﻿​﻿​﻿﻿﻿</a>
+                <h2>Or: What to do with that deanonymized IP of a CloudFlare protected server.</h2>
+<h2>Introduction</h2>
+<p>CloudFlare is a security focused HTTP proxy. It protects the real IP address of a webserver by sitting between it and the outside world. When configured correctly an HTTP server behind CloudFlare should be inaccessible via any route other than CloudFlare.</p>
+<p>The most important part of utilizing CloudFlare is to ensure the direct IP address has never been associate with the domain you wish to protect. Often times CloudFlare is added after an attack, and pointed to the direct IP address which has been associated with the original domain for quite some time. A well known way of finding the direct IP of a CloudFlare protected site is to use historic DNS lookup services like <a href="https://securitytrails.com/dns-trails">DNSTrails</a>.</p>
+<p>The second most important part of this configuration is setting up virtual hosts and firewall rules to block direct IP access. Often times virtual hosts are created to handle this properly but firewall rules are too annoying or hard for server operators to implement properly. In this post we will utilize these two issues to bypass CloudFlare and connect to a CloudFlare protected HTTP server as if CloudFlare doesn't exist.</p>
+<h2>Getting Started</h2>
+<p>You will need two basic bits of data to accomplish this task.</p>
+<ol>
+<li>The direct IP of the HTTP server (obtained via historic records or other means)</li>
+<li>The domain associated with this IP address.</li>
+</ol>
+<h2>The Basics</h2>
+<p>This is a simple attack requiring a single HTTP header spoof. Your system must be set up to pass the correct <code>Host</code> HTTP header to trigger the correct match in either the Apache or NGINX target server's virtual host routes.</p>
+<p>Let's say you have the IP address <code>123.123.123.0</code> and the domain <code>somedomain.tld</code> the target server has a virtual host set up for both the IP address and the domain name. The domain name routes to the normal page that is behind CloudFlare, the direct IP routes to a blank page or some other page. Attempting to access the IP address gives you the blank page when you want the page served for the domain name.</p>
+<p>In order to trick Apache or NGINX to display the protected page simply set the <code>Host</code> header on your request like so:</p>
+<pre style="background-color:#3b3228;">
+<span style="color:#d0c8c6;">Host: somedomain.tld
+</span></pre>
+<h2>In Practice</h2>
+<p>Here are some examples of the simplest way to do this with our system or tool of choice.</p>
+<h3>Linux</h3>
+<p>Edit <code>/etc/hosts</code> and add the domain and IP address like so (edit to match your use case):</p>
+<pre style="background-color:#3b3228;">
+<span style="color:#d0c8c6;"># /etc/hosts
+</span><span style="color:#d0c8c6;">123.123.123.0 somedomain.tld
+</span></pre>
+<p>After a reboot any request to the specified domain will be resolved to the listed IP and contain the proper <code>Host</code> header.</p>
+<h3>Windows</h3>
+<p>Open <code>C:\Windows\System32\drivers\etc\hosts</code> as Administrator and add the following line (edit to match your use case):</p>
+<pre style="background-color:#3b3228;">
+<span style="color:#d0c8c6;">123.123.123.0 somedomain.tld
+</span></pre>
+<p>After a reboot any request to the specified domain will be resolved to the listed IP and contain the proper <code>Host</code> header.</p>
+<h3>curl</h3>
+<p>Simply start your curl command like this (edit to match your use case):</p>
+<pre style="background-color:#3b3228;">
+<span style="color:#d0c8c6;">curl curl -H &quot;Host: somedomain.tld&quot; http://123.123.123.0/
+</span></pre>
+<h2>Conclusion</h2>
+<p>Once the <code>Host</code> header matches, and if firewall rules have not been configured properly on the target, you should see the CloudFlare protected page in the response from your request. This time though, it was loaded directly, bypassing CloudFlare completely.</p>
+
+                <a class="spacebar">​​﻿​​﻿﻿﻿​﻿​​﻿​﻿﻿﻿​​﻿​﻿​﻿​​﻿﻿​​﻿﻿﻿﻿﻿​﻿﻿﻿﻿﻿​​﻿​﻿﻿​​﻿﻿﻿​﻿﻿​﻿​﻿﻿﻿</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="navbar">
+      <section class="navbar-section">
+        <p>&copy;2020 Chad Baxter</p>
+      </section>
+      <section class="navbar-section">
+        <a href="https://wigle.net">
+          <img src="https://wigle.net/bi/Y6ICR7rJxQTG0P4BNmvkdA.png" loading="lazy" border="0">
+        </a>
+        <a href="https://www.abuseipdb.com/user/34877" title="AbuseIPDB is an IP address blacklist for webmasters and sysadmins to report IP addresses engaging in abusive behavior on their networks" alt="AbuseIPDB Contributor Badge">
+          <img src="https://www.abuseipdb.com/contributor/34877.svg" loading="lazy" style="width: 200px;">
+        </a>
+      </section>
+    </footer>
+    <input type="hidden" class="track"></input>
+    <style>
+      input.track {
+          content: url('https://www.google-analytics.com/collect?v=1&tid=UA-66099830-2&t=pageview&dp=%2Fposts/2021-05-11-vhosts-spoof.html&dt=%22Spoofing Virtual Hosts for Fun and Profit%22');
+      }
+    </style>
+  </body>
+</html>
