@@ -51,7 +51,7 @@ As a huge sigh of relief for the OpenWrt project, the content I have (and intend
 
 ## How This Happened
 
-The creators of OpenWrt write an embbeded operating system, not forum software. To make their life easier they are hosting a copy of [Discourse](https://www.discourse.org/) which is an open source forum project focused on modernity and ease of use. Discourse has built in link parsing for posts. This parser takes anything that looks like a link in any post and attempts to create an href out of it when a user browses the page.
+The creators of OpenWrt write an embedded operating system, not forum software. To make their life easier they are hosting a copy of [Discourse](https://www.discourse.org/) which is an open source forum project focused on modernity and ease of use. Discourse has built in link parsing for posts. This parser takes anything that looks like a link in any post and attempts to create an href out of it when a user browses the page.
 
 Unbeknownst to the OpenWrt forum maintainers; this parser was utilized on the Terms of Service page as well. In fact this is a bug on all installs of Discourse. See it present on the Rust community forum as well:
 

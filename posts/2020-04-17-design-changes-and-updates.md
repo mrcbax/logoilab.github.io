@@ -5,7 +5,7 @@ published_date: "2020-04-17 22:40:03 +0000"
 layout: default.liquid
 is_draft: false
 ---
-I am de-Googling a lot of my own stuff and my projects as a side effect. I though I would also give this site some love while I was at it. The page you are currently reading is composed of HTML & CSS.
+I am de-Googling a lot of my own stuff and my projects as a side effect. I thought I would also give this site some love while I was at it. The page you are currently reading is composed of HTML & CSS.
 
 **That's it.**
 
