@@ -64,17 +64,17 @@
               <div class="card-body">
                 <a class="spacebar">​​﻿​​﻿﻿﻿​﻿​​﻿​﻿﻿﻿​​﻿​﻿​﻿​​﻿﻿​​﻿﻿﻿﻿﻿​﻿﻿﻿﻿﻿​​﻿​﻿﻿​​﻿﻿﻿​﻿﻿​﻿​﻿﻿﻿</a>
                 <h1>Introduction</h1>
-<p>Certiport testing software is used to administer certification tests for Microsoft products in a secure testing environment. The software includes monitoring and auto-grading of tests as well as a practice test functionality which will be covered in more depth below. This exploit is not new and I just got around to assigning a CVE once I realized the imp​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿​﻿​​​﻿​​﻿​​﻿​​﻿​​﻿​​﻿﻿​﻿​​​﻿act it could have on testing centers. Testing centers are created by local schools, colleges, and vocational institutions. Because of the severity of the exploit and the impact it can have on these organizations I decided to push through a CVE. This was no easy task as the security personnel at Pearson Inc. (the vendor of the software) did not know what a CVE was until I informed them.</p>
+<p>Certiport testing software is used to administer certification tests for Microsoft products in a secure testing environment. The software includes monitoring and auto-grading of tests as well as a practice test functionality which will be covered in more depth below. ​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿​﻿​​​﻿​​﻿​​﻿​​﻿​​﻿​​﻿﻿​﻿​​​﻿Testing centers are created by local schools, colleges, and vocational institutions. Because of the severity of the exploit and the impact it can have on these organizations I decided to work towards responsible disclosure with Pearson, Inc. the owner and creator of the Certiport testing software.</p>
 <h1>Affected Versions</h1>
 <ul>
 <li>Ver. &lt; Certiport Console 8</li>
 <li>Ver. &lt; Certiport IQSystem 7</li>
 </ul>
 <h1>Explanation</h1>
-<p>The testing software must be run as a local administrator to be able to hook into Microsoft applications to determine the user's progress on a test. This produces some inherent risks. Upon completing a practice test the testing software asks you if you would ​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿​﻿​​​﻿​​﻿​​﻿​​﻿​​﻿​​﻿﻿​﻿​​​﻿like to view your test results locally. This is done by creating a PDF and opening it in Internet Explorer or Microsoft Edge. This browser process is not a normal process though. It is a child process of the testing software that has inherited all of the pa​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿​﻿​​​﻿​​﻿​​﻿​​﻿​​﻿​​﻿﻿​﻿​​​﻿rent process' permissions. Since most all browsers have a save functionality for web pages and PDFs opening the save dialog gives you local administrator access to all files and programs on the computer. This would allow an attacker or cheater to run any system applications as an administrator this includes Powershell and Command Prompt.</p>
+<p>The testing software must be run as a local administrator to be able to hook into Microsoft applications to determine the user's progress on a test. This produces some inherent risks. Upon completing a practice test the testing software asks you if you would ​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿​﻿​​​﻿​​﻿​​﻿​​﻿​​﻿​​﻿﻿​﻿​​​﻿like to view your test results locally. This is done by creating a PDF and opening it in Internet Explorer or Microsoft Edge. This browser process is not a normal process though. It is a child process of the testing software that has inherited all of the pa​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿​﻿​​​﻿​​﻿​​﻿​​﻿​​﻿​​﻿﻿​﻿​​​﻿rent process' permissions. In Windows, opening the save dialog as a privileged child process gives local administrator access to all files and programs on the computer. This would allow anyone accessing this save dialog to run any system applications as an administrator, this includes Powershell, Command Prompt, and other more privileged tools.</p>
 <h1>Mitigations</h1>
 <p>This is a local privilege escalation exploi​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿​﻿​​​﻿​​﻿​​﻿​​﻿​​﻿​​﻿﻿​﻿​​​﻿t and as such any computers running the Certiport testing software would provide a foothold on a network from which attackers could enable remote administration, create accounts, access network shares, and install malware.</p>
-<p>To mitigate this testing facilities, proctors, and exam takers should be closely monitored for abnormal activity during practice tests.</p>
+<p>To mitigate this, testing facilities, proctors, and exam takers should be closely monitored for abnormal activity during practice tests.</p>
 <h1>Timeline</h1>
 <ul>
 <li>June 4, 2018:    Exploit ident​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿​﻿​​​﻿​​﻿​​﻿​​﻿​​﻿​​﻿﻿​﻿​​​﻿ified and determined to be of high risk.</li>
@@ -87,7 +87,7 @@
 <li>August 3, 2018:  CVE published <a href="https://cpcde.page.link/b7pQ">CVE-2018-12989</a>.</li>
 </ul>
 <h1>Closing Statement</h1>
-<p>Certiport as well as Pearson Inc.​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿​﻿​​​﻿​​﻿​​﻿​​﻿​​﻿​​﻿﻿​﻿​​​﻿ do not seem to have a firm grasp on how their software affects the security of school systems and colleges around the world. Upon asking for permission to publish the CVE and this article ​﻿​﻿﻿​﻿﻿﻿​​​​﻿​﻿​​﻿﻿﻿﻿​​​​﻿﻿​​​﻿﻿​﻿﻿​﻿﻿﻿​﻿​​﻿​﻿​﻿​​﻿﻿​﻿​﻿​﻿﻿﻿​﻿﻿​​​﻿​﻿​​​﻿​​﻿​​﻿​​﻿​​﻿​​﻿﻿​﻿​​​﻿I was asked &quot;What is a CVE?&quot;. Keep in mind the person I was talking to was the head of their security staff for software and networks. In the end it is up to you the customer to protect yourself when dealing with these companies.</p>
+<p>The responsible disclosure process with Pearson, Inc. was not as smooth as it could have been. I hope to see them improve the process in the future.</p>
 
                 <a class="spacebar">​​﻿​​﻿﻿﻿​﻿​​﻿​﻿﻿﻿​​﻿​﻿​﻿​​﻿﻿​​﻿﻿﻿﻿﻿​﻿﻿﻿﻿﻿​​﻿​﻿﻿​​﻿﻿﻿​﻿﻿​﻿​﻿﻿﻿</a>
               </div>
