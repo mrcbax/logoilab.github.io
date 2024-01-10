@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>ComputeCode</title>
 		<link>https://computeco.de</link>
+		<atom:link href="https://computeco.de/rss.xml" rel="self" type="application/rss+xml" />
 		<description>A blog about security, software, and hardware.</description>
 		<item>
 			<title>Everything to do with Non-OpenWrt</title>
